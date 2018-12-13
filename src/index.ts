@@ -5,6 +5,8 @@ import * as bodyParser from "body-parser";
 
 import UserController from "./controllers/userController";
 import BuildController from "./controllers/buildController";
+import RoleController from "./controllers/roleController";
+import PermissionController from "./controllers/permissionController";
 
 createConnection()
   .then(async connection => {
@@ -12,8 +14,11 @@ createConnection()
 
     app.use(bodyParser.json());
 
-    app.use("/api/users", UserController); //TODO: Lock this behind admin credentials
+    // TODO: Add authentication to these routes to restrict access to certian routes
+    app.use("/api/users", UserController);
     app.use("/api/builds", BuildController);
+    app.use("/api/roles", RoleController);
+    app.use("/api/permissions", PermissionController);
 
     const port = process.env.port || 5000;
     app.listen(port, () => console.log(`Server running on port ${port}...`));

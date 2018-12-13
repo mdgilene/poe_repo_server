@@ -20,10 +20,13 @@ export class User extends BaseEntity {
   @Column()
   username: string;
 
-  @Column({ unique: true, select: false })
+  @Column({ unique: true })
   email: string;
 
-  @ManyToMany(type => Role)
+  @Column({ select: false })
+  password_hash: string;
+
+  @ManyToMany(type => Role, role => role.users)
   @JoinTable({
     name: "user_roles"
   })
@@ -31,15 +34,4 @@ export class User extends BaseEntity {
 
   @OneToMany(type => Build, build => build.author)
   builds: Build[];
-
-  static findOneByUsername(username: string): Promise<User> {
-    return this.createQueryBuilder("user")
-      .where("user.username = :username", { username })
-      .getOne();
-  }
-
-  static async getBuilds(username: string): Promise<Build[]> {
-    const user = await User.findOne({ username }, { relations: ["builds"] });
-    return user.builds;
-  }
 }

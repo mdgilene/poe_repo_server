@@ -7,7 +7,7 @@ export default {
   async seed() {
     console.log("Seeding Build Table...");
 
-    const admin = await User.findOneByUsername("admin");
+    const admin = await User.findOne({ username: "admin" });
 
     for (let i in Array(100).fill(1)) {
       const build = Build.create({

@@ -29,6 +29,6 @@ export class Build extends BaseEntity {
   @Column({ type: "text" })
   item_text: string;
 
-  @OneToMany(type => Item, item => item.build, { eager: true })
+  @OneToMany(type => Item, item => item.build, { eager: true, cascade: true })
   items: Item[];
 }
