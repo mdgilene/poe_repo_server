@@ -14,7 +14,7 @@ export class Role extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
+  @Column({ unique: true })
   name: string;
 
   @ManyToMany(type => User, user => user.roles)
