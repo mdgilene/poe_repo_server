@@ -2,6 +2,7 @@ import { Router, Request, Response } from "express";
 import { User } from "../entity/User";
 import { Build } from "../entity/Build";
 import { Item } from "../entity/Item";
+import { Between, MoreThan } from "typeorm";
 
 const router = Router();
 
@@ -10,8 +11,32 @@ router.get("/", async (req: Request, res: Response) => {
 
   const builds = await Build.find({
     take: limit || 50,
-    skip: skip || 0
+    skip: skip || 0,
   });
+
+  return res.json({
+    offset: skip || 0,
+    count: builds.length,
+    builds
+  });
+});
+
+// Popular gets the highest rated builds submitted within the last month
+router.get("/popular", async (req: Request, res: Response) => {
+  const { limit, skip } = req.query;
+
+  const date = new Date(Date.now());
+  date.setMonth(date.getMonth() - 1);
+
+  const builds = await Build.createQueryBuilder("build")
+    .where("build.created_at > :date", {date: date.toISOString()})
+    .orWhere("build.updated_at > :date", {date: date.toISOString()})
+    .leftJoinAndSelect("build.author", "user")
+    .leftJoinAndSelect("build.items", "item")
+    .orderBy("build.score", "DESC")
+    .take(limit || 50)
+    .skip(skip || 0)
+    .getMany();
 
   return res.json({
     offset: skip || 0,
