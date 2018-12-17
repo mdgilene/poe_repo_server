@@ -1,13 +1,11 @@
 import {
   Entity,
   PrimaryGeneratedColumn,
-  Generated,
   Column,
   BaseEntity,
   ManyToMany,
   JoinTable,
-  OneToMany,
-  FindOneOptions
+  OneToMany
 } from "typeorm";
 import { Role } from "./Role";
 import { Build } from "./Build";

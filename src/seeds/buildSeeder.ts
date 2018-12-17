@@ -21,7 +21,8 @@ export default {
         It will be of markdown format and rendered as such on the front end.`,
         item_text: `This is text for the item section
         
-        It will be of markdown format and rendered as such on the front end.`
+        It will be of markdown format and rendered as such on the front end.`,
+        score: Math.floor(Math.random() * 10000)
       });
 
       build.items = await itemSeeder.seed();

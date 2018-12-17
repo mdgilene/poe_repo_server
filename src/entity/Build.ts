@@ -4,7 +4,9 @@ import {
   Column,
   ManyToOne,
   BaseEntity,
-  OneToMany
+  OneToMany,
+  CreateDateColumn,
+  UpdateDateColumn
 } from "typeorm";
 import { User } from "./User";
 import { Item } from "./Item";
@@ -31,4 +33,13 @@ export class Build extends BaseEntity {
 
   @OneToMany(type => Item, item => item.build, { eager: true, cascade: true })
   items: Item[];
+
+  @Column()
+  score: number;
+
+  @CreateDateColumn()
+  created_at: string;
+
+  @UpdateDateColumn()
+  updated_at: string;
 }
