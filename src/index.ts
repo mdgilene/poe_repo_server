@@ -2,6 +2,7 @@ import "reflect-metadata";
 import { createConnection } from "typeorm";
 import * as express from "express";
 import * as bodyParser from "body-parser";
+import * as cors from "cors";
 
 import UserController from "./controllers/userController";
 import BuildController from "./controllers/buildController";
@@ -13,6 +14,7 @@ createConnection()
     const app = express();
 
     app.use(bodyParser.json());
+    app.use(cors({ origin: "http://localhost:8080" }));
 
     // TODO: Add authentication to these routes to restrict access to certian routes
     app.use("/api/users", UserController);
