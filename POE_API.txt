@@ -1,0 +1,26 @@
+Characters
+/character-window/get-characters
+
+Items
+/character-window/get-items
+character= {username}
+
+Stash
+/character-window/get-stash-items
+league= {Standard,Hardcore,Torment,Bloodlines}
+tabs= {0,1} 1 to shows tabs name, position, colors
+tabIndex= {0,...,N}
+
+Hideout Stash
+/character-window/get-stash-items
+league= {Standard,Hardcore}
+
+MTX Stash
+/character-window/get-mtx-stash-items
+league= {Standard,Hardcore,Torment,Bloodlines}
+tabs= {0,1} 1 to shows tabs name, position, colors
+tabIndex= {0,...,N}
+
+Passives
+/character-window/get-passive-skills
+character= {username}
