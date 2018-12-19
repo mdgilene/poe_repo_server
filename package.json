@@ -10,7 +10,8 @@
     "typeorm": "ts-node node_modules/typeorm/cli.js",
     "db:fresh": "yarn typeorm schema:drop && yarn typeorm migration:run",
     "db:seed": "ts-node ./src/seeds/index.ts",
-    "db:fresh:seed": "yarn db:fresh && yarn db:seed"
+    "db:fresh:seed": "yarn db:fresh && yarn db:seed",
+    "data:convert": "ts-node src/data/convert.ts"
   },
   "dependencies": {
     "bcrypt": "^3.0.2",

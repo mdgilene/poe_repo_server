@@ -1,13 +1,4 @@
-import {
-  Entity,
-  PrimaryGeneratedColumn,
-  Column,
-  ManyToMany,
-  JoinTable,
-  ManyToOne,
-  BaseEntity
-} from "typeorm";
-import { Build } from "./Build";
+import { Entity, PrimaryGeneratedColumn, Column, BaseEntity } from "typeorm";
 
 @Entity()
 export class Item extends BaseEntity {
@@ -18,19 +9,8 @@ export class Item extends BaseEntity {
   rarity: "normal" | "magic" | "rare" | "unique";
 
   @Column()
-  base_item: string;
+  slot: string;
 
-  @Column()
-  icon: string;
-
-  // "|" separated list of properties
-  @Column({ type: "text" })
-  properties: string;
-
-  // "|" separated list of modifiers
-  @Column({ type: "text" })
-  modifiers: string;
-
-  @ManyToOne(type => Build)
-  build: Build;
+  @Column({ type: "text", unique: true })
+  text: string;
 }
