@@ -1,7 +1,6 @@
 import { Build } from "../entity/Build";
 import { User } from "../entity/User";
-
-import itemSeeder from "./itemSeeder";
+import { Item } from "../entity/Item";
 
 export default {
   async seed() {
@@ -25,7 +24,14 @@ export default {
         score: Math.floor(Math.random() * 10000)
       });
 
-      build.items = await itemSeeder.seed();
+      build.items = [];
+      const slots = ["helmet", "sword", "ring", "boots", "gloves", "belt"];
+      for (let i = 0; i < slots.length; i++) {
+        const items = await Item.find({ slot: slots[i] });
+        const index = Math.floor(Math.random() * (items.length - 1));
+        const item = items[index];
+        build.items.push(item);
+      }
 
       await build.save();
     }

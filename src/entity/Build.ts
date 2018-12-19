@@ -4,9 +4,10 @@ import {
   Column,
   ManyToOne,
   BaseEntity,
-  OneToMany,
   CreateDateColumn,
-  UpdateDateColumn
+  UpdateDateColumn,
+  ManyToMany,
+  JoinTable
 } from "typeorm";
 import { User } from "./User";
 import { Item } from "./Item";
@@ -31,7 +32,8 @@ export class Build extends BaseEntity {
   @Column({ type: "text" })
   item_text: string;
 
-  @OneToMany(type => Item, item => item.build, { eager: true, cascade: true })
+  @ManyToMany(type => Item, { eager: true, cascade: true })
+  @JoinTable({ name: "build_items" })
   items: Item[];
 
   @Column()
