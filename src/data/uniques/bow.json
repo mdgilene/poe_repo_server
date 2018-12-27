@@ -1,0 +1,620 @@
+{
+  "Weapon: Bow": [
+    {
+      "name": "Arborix",
+      "base": "Assassin Bow",
+      "variants": [
+        "Pre 3.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 62
+      },
+      "implicits": [
+        "{variant:1}Adds (60-70) to (180-210) Physical Damage "
+      ],
+      "explicits": [
+        "{variant:2}Adds (95-115) to (240-265) Physical Damage ",
+        "(80-100)% increased Evasion Rating",
+        "2 Additional Arrows",
+        "Every 16 seconds you gain iron Reflexes for 8 seconds",
+        "30% more Bow Damage at Close Range while you have iron Reflexes",
+        "30% increased Attack, Cast and Movements Speed while you do not have Iron Reflexes",
+        "You have Far Shot while you do not have Iron Reflexes"
+      ],
+      "source": "Vendor recipe"
+    },
+    {
+      "name": "Chin Sol",
+      "base": "Assassin Bow",
+      "variants": [
+        "Pre 1.2.0",
+        "Pre 2.0.0",
+        "Pre 3.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 62,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "{variant:1,2}(6-12)% increased Elemental Damage with Weapons"
+      ],
+      "explicits": [
+        "{variant:1,2}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:1}(75-100)% increased Physical Damage",
+        "{variant:2,3}(150-180)% increased Physical Damage",
+        "{variant:4}(200-260)% increased Physical Damage",
+        "+(10-20) to Dexterity",
+        "Adds 25 to 50 Fire Damage",
+        "{variant:1}5% increased Attack Speed",
+        "{variant:2,3,4}(10-14)% increased Attack Speed",
+        "{variant:1,2,3}100% More Bow Damage at Close Range",
+        "{variant:4}50% More Bow Damage at Close Range"
+      ]
+    },
+    {
+      "name": "Darkscorn",
+      "base": "Assassin Bow",
+      "variants": [
+        "Pre 1.2.0",
+        "Pre 2.0.0",
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 62,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "{variant:1,2}(6-12)% increased Elemental Damage with Weapons"
+      ],
+      "explicits": [
+        "{variant:1,2}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:1,2,3}(100-125)% increased Physical Damage",
+        "{variant:4}(130-150)% increased Physical Damage",
+        "{variant:2}Adds (6-10) to (10-14) Physical Damage",
+        "{variant:3,4}Adds (10-15) to (15-20) Physical Damage",
+        "10% increased Attack Speed",
+        "25% of Physical Damage Converted to Chaos Damage",
+        "(15-30)% increased Accuracy Rating"
+      ]
+    },
+    {
+      "name": "Death's Harp",
+      "base": "Death Bow",
+      "variants": [
+        "Pre 2.2.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 32,
+        "stats": "107 Dex"
+      },
+      "implicits": [
+        "(30-50)% increased Critical Strike Chance"
+      ],
+      "explicits": [
+        "(100-125)% increased Physical Damage",
+        "10% increased Attack Speed",
+        "{variant:1,3}+100% to Global Critical Strike Multiplier",
+        "{variant:2}+150% to Global Critical Strike Multiplier",
+        "Adds an additional Arrow"
+      ],
+      "upgrade": "Upgrades to unique{Death's Opus} via prophecy{The Bowstring's Music}"
+    },
+    {
+      "name": "Death's Opus",
+      "base": "Death Bow",
+      "variants": [
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 44,
+        "stats": "107 Dex"
+      },
+      "implicits": [
+        "(30-50)% increased Critical Strike Chance"
+      ],
+      "explicits": [
+        "(100-125)% increased Physical Damage",
+        "Adds (10-20) to (30-35) Physical Damage",
+        "10% increased Attack Speed",
+        "{variant:1}+150% to Global Critical Strike Multiplier",
+        "{variant:2}+100% to Global Critical Strike Multiplier",
+        "2 additional Arrows"
+      ],
+      "source": "Upgraded from unique{Death's Harp} via prophecy{The Bowstring's Music}"
+    },
+    {
+      "name": "Doomfletch",
+      "base": "Royal Bow",
+      "variants": [
+        "Pre 2.0.0",
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Pre 3.1.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 28,
+        "stats": "95 Dex"
+      },
+      "implicits": [
+        "{variant:1,2}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:3}(20-24)% increased Elemental Damage with Weapons",
+        "{variant:4,5}(20-24)% increased Elemental Damage with Attack Skills"
+      ],
+      "explicits": [
+        "{variant:1,2}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:3}(20-24)% increased Elemental Damage with Weapons",
+        "{variant:4,5}(20-24)% increased Elemental Damage with Attack Skills",
+        "{variant:2,3,4}Adds (8-12) to (16-20) Physical Damage",
+        "{variant:5}Adds (12-16) to (20-24) Physical Damage",
+        "(10-14)% increased Attack Speed",
+        "{variant:1,2,3,4}(30-40)% increased Critical Strike Chance",
+        "60% increased Mana Regeneration Rate",
+        "{variant:1,2,3,4}Gain 110% of Bow Physical Damage as Extra Damage of an Element"
+      ],
+      "upgrade": "Upgrades to unique{Doomfletch's Prism} via prophecy{Ancient Doom}"
+    },
+    {
+      "name": "Doomfletch's Prism",
+      "base": "Royal Bow",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Pre 3.1.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 40,
+        "stats": "95 Dex"
+      },
+      "implicits": [
+        "{variant:1}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:2}(20-24)% increased Elemental Damage with Weapons",
+        "{variant:3,4}(20-24)% increased Elemental Damage with Attack Skills"
+      ],
+      "explicits": [
+        "{variant:1}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:2}(20-24)% increased Elemental Damage with Weapons",
+        "{variant:3,4}(20-24)% increased Elemental Damage with Attack Skills",
+        "{variant:1,2,3}Adds (8-12) to (16-20) Physical Damage",
+        "{variant:4}Adds (12-16) to (20-24) Physical Damage",
+        "(10-14)% increased Attack Speed",
+        "{variant:1,2,3}(30-40)% increased Critical Strike Chance",
+        "60% increased Mana Regeneration Rate",
+        "{variant:1,2,3}Gain 110% of Bow Physical Damage as Extra Damage of each Element"
+      ],
+      "source": "Upgraded from unique{Doomfletch} via prophecy{Ancient Doom}"
+    },
+    {
+      "name": "Hopeshredder",
+      "base": "Ranger Bow",
+      "variants": [
+        "Pre 3.4.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 60
+      },
+      "implicits": [
+        "Adds (130-150) to (270-300) Cold Damage "
+      ],
+      "explicits": [
+        "4% increased Movement Speed per Frenzy Charge ",
+        "+(400-500) to Accuracy Rating ",
+        "{variant:2}(15-25)% increased Attack Speed",
+        "12 to 14 Cold Damage per Frenzy Charge ",
+        "2% chance to Avoid Elemental Damage when Hit per Frenzy Charge ",
+        "0.5% of Attack Damage Leeched as Life per Frenzy Charge ",
+        "{variant:1}400 Cold Damage taken per second per Frenzy Charge while moving",
+        "{variant:2}200 Cold Damage taken per second per Frenzy Charge while moving"
+      ],
+      "source": "Drops from unique{The Elder} (Tier 6+)",
+      "elder": true
+    },
+    {
+      "name": "Infractem",
+      "base": "Decimation Bow",
+      "variants": [
+        "Pre 1.2.0",
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 53,
+        "stats": "170 Dex"
+      },
+      "implicits": [
+        "(30-50)% increased Critical Strike Chance"
+      ],
+      "explicits": [
+        "{variant:1,2}(90-100)% increased Physical Damage",
+        "{variant:3,4}(110-125)% increased Physical Damage",
+        "{variant:2,3,4}Adds (25-35) to (36-45) Physical Damage",
+        "+(20-30) to Dexterity",
+        "+(200-250) to Accuracy Rating",
+        "{variant:1,2,3}Arrows always Pierce",
+        "{variant:4}Arrows Pierce all Targets",
+        "10% increased Movement Speed",
+        "{variant:1,2}Cannot Leech",
+        "{variant:3,4}Cannot Leech Life"
+      ]
+    },
+    {
+      "name": "Iron Commander",
+      "base": "Death Bow",
+      "requirements": {
+        "level": 32,
+        "stats": "107 Dex"
+      },
+      "implicits": [
+        "(30-50)% increased Critical Strike Chance"
+      ],
+      "explicits": [
+        "Adds (8-12) to (16-24) Physical Damage",
+        "(14-20)% increased Attack Speed",
+        "(14-20)% increased Totem Life",
+        "(14-20)% increased Totem Placement speed",
+        "Can have 1 additional Siege Ballista Totem per 200 Dexterity",
+        "Adds 1 to 3 Physical Damage to Attacks per 25 Dexterity"
+      ]
+    },
+    {
+      "name": "Lioneye's Glare",
+      "base": "Imperial Bow",
+      "variants": [
+        "Pre 2.0.0",
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 66,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "{variant:2}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:3}(20-24)% increased Elemental Damage with Weapons",
+        "{variant:4}(20-24)% increased Elemental Damage with Attack Skills"
+      ],
+      "explicits": [
+        "{variant:2}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:3}(20-24)% increased Elemental Damage with Weapons",
+        "{variant:4}(20-24)% increased Elemental Damage with Attack Skills",
+        "(150-175)% increased Physical Damage",
+        "Adds (6-12) to (20-32) Physical Damage",
+        "(10-20)% increased Attack Speed",
+        "+(80-100) to maximum Mana",
+        "Hits can't be Evaded"
+      ]
+    },
+    {
+      "name": "Null's Inclination",
+      "base": "Ranger Bow",
+      "requirements": {
+        "level": 60,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "Adds (50-80) to (130-180) Chaos Damage"
+      ],
+      "explicits": [
+        "(7-12)% increased Attack Speed",
+        "+(7-11)% to Chaos Resistance",
+        "Minions deal 1% increased Damage per 10 Dexterity",
+        "+212 Intelligence Requirement",
+        "Cast Socketed Minion Spells on Kill with this Weapon"
+      ]
+    },
+    {
+      "name": "Nuro's Harp",
+      "base": "Harbinger Bow",
+      "variants": [
+        "Pre 2.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 68,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "(30-50)% increased Critical Strike Chance"
+      ],
+      "explicits": [
+        "No Physical Damage",
+        "Adds (120-140) to (180-210) Cold Damage",
+        "(10-15)% increased Attack Speed",
+        "(10-30)% increased Light Radius",
+        "15% chance to create Chilled Ground when you Freeze an Enemy",
+        "Create Consecrated Ground when you Shatter an Enemy",
+        "{variant:2}40% increased Effect of Chilled Ground"
+      ]
+    },
+    {
+      "name": "Quill Rain",
+      "base": "Short Bow",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 5,
+        "stats": "26 Dex"
+      },
+      "implicits": [
+        "+(10-20) to Dexterity"
+      ],
+      "explicits": [
+        "{variant:2,3}100% increased Physical Damage",
+        "100% increased Attack Speed",
+        "+(25-50) to Accuracy Rating",
+        "(50-100)% increased Projectile Speed",
+        "{variant:1}50% less Weapon Damage",
+        "{variant:2}40% less Weapon Damage",
+        "{variant:3}40% less Damage",
+        "{variant:2,3}+2 Mana gained for each Enemy hit by Attacks"
+      ]
+    },
+    {
+      "name": "Reach of the Council",
+      "base": "Spine Bow",
+      "variants": [
+        "Pre 2.4.0",
+        "Pre 2.6.0",
+        "Pre 3.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 64,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "{variant:4}Socketed Gems are Supported by Level 20 Greater Volley"
+      ],
+      "explicits": [
+        "{variant:1}(50-70)% increased Physical Damage",
+        "{variant:2,3}(40-50)% increased Physical Damage",
+        "{variant:4}(50-75)% increased Physical Damage",
+        "{variant:1}Adds (25-40) to (100-115) Physical Damage",
+        "{variant:2,3,4}Adds (15-30) to (70-95) Physical Damage",
+        "(8-12)% increased Attack Speed",
+        "{variant:1,2}4 additional Arrows",
+        "{variant:3}2 additional Arrows",
+        "20% reduced Projectile Speed"
+      ],
+      "source": "prophecy{The Feral Lord V}"
+    },
+    {
+      "name": "Roth's Reach",
+      "base": "Recurve Bow",
+      "variants": [
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 18,
+        "stats": "71 Dex"
+      },
+      "implicits": [
+        "(60-80)% increased Physical Damage"
+      ],
+      "explicits": [
+        "{variant:1}(20-40)% increased Elemental Damage with Weapons",
+        "{variant:2}(20-40)% increased Elemental Damage with Attack Skills",
+        "(4-8)% increased Attack Speed",
+        "Skills Chain +1 times",
+        "30% increased Projectile Speed"
+      ]
+    },
+    {
+      "name": "Silverbranch",
+      "base": "Crude Bow",
+      "variants": [
+        "Pre 2.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 2
+      },
+      "implicits": [
+        "+1 to Level of Socketed Bow Gems"
+      ],
+      "explicits": [
+        "{variant:1}(50-80)% increased Physical Damage",
+        "{variant:2}(80-100)% increased Physical Damage",
+        "10% increased Attack Speed",
+        "+30 to Accuracy Rating",
+        "+10 Mana gained on Kill"
+      ],
+      "upgrade": "Upgrades to unique{Silverbough} via prophecy{The Silverwood}"
+    },
+    {
+      "name": "Silverbough",
+      "base": "Crude Bow",
+      "requirements": {
+        "level": 36
+      },
+      "implicits": [
+        "+1 to Level of Socketed Gems"
+      ],
+      "explicits": [
+        "+1 to Level of Socketed Bow Gems",
+        "(80-100)% increased Physical Damage",
+        "Adds (15-25) to (50-60) Physical Damage",
+        "10% increased Attack Speed",
+        "+30 to Accuracy Rating",
+        "+10 Mana gained on Kill"
+      ],
+      "source": "Upgraded from unique{Silverbranch} using prophecy{The Silverwood}"
+    },
+    {
+      "name": "Slivertongue ",
+      "base": "Harbinger Bow",
+      "variants": [
+        "Pre 3.0.0",
+        "Pre 3.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 68,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "(30-50)% increased Critical Strike Chance"
+      ],
+      "explicits": [
+        "{variant:1,2}Adds (60-75) to (170-220) Physical Damage",
+        "{variant:3}Adds (110-125) to (245-265) Physical Damage",
+        "{variant:1,2}100% increased Critical Strike Chance with arrows that Fork",
+        "{variant:3}(150-200)% increased Critical Strike Chance with arrows that Fork",
+        "{variant:1}Arrows that Pierce cause Bleeding",
+        "{variant:2}Arrows that Pierce have 50% chance to cause Bleeding",
+        "{variant:3}Arrows that Pierce have +50% to Critical Strike Multiplier",
+        "{variant:1,2}Arrows Pierce all Targets after Chaining",
+        "{variant:3}Arrows Pierce all Targets after Forking"
+      ],
+      "source": "Drops from unique{Guardian of the Hydra}"
+    },
+    {
+      "name": "Storm Cloud",
+      "base": "Long Bow",
+      "variants": [
+        "Pre 2.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 9,
+        "stats": "38 Dex"
+      },
+      "implicits": [
+        "No Physical Damage"
+      ],
+      "explicits": [
+        "{variant:1}Adds 1 to 75 Lightning Damage",
+        "{variant:2}Adds 1 to 85 Lightning Damage",
+        "(36-50)% increased Attack Speed"
+      ],
+      "upgrade": "Upgrades to unique{The Tempest} via prophecy{The Servant's Heart}"
+    },
+    {
+      "name": "The Tempest",
+      "base": "Long Bow",
+      "requirements": {
+        "level": 32,
+        "stats": "38 Dex"
+      },
+      "implicits": [
+        "No Physical Damage"
+      ],
+      "explicits": [
+        "100% increased Lightning Damage",
+        "Adds 1 to 85 Lightning Damage",
+        "(36-50)% increased Attack Speed"
+      ],
+      "source": "Upgraded from unique{Storm Cloud} using prophecy{The Servant's Heart}"
+    },
+    {
+      "name": "Voltaxic Rift",
+      "base": "Spine Bow",
+      "requirements": {
+        "level": 64,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "Adds 1 to (275-325) Lightning Damage"
+      ],
+      "explicits": [
+        "(10-15)% increased Attack Speed",
+        "60% of Lightning Damage Converted to Chaos Damage",
+        "10% Chance to Shock",
+        "Your Chaos Damage can Shock"
+      ]
+    },
+    {
+      "name": "Windripper",
+      "base": "Imperial Bow",
+      "variants": [
+        "Pre 2.0.0",
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Pre 3.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 66,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "{variant:2}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:3}(20-24)% increased Elemental Damage with Weapons",
+        "{variant:4,5}(20-24)% increased Elemental Damage with Attack Skills"
+      ],
+      "explicits": [
+        "{variant:2}(6-12)% increased Elemental Damage with Weapons",
+        "{variant:3}(20-24)% increased Elemental Damage with Weapons",
+        "{variant:4,5}(20-24)% increased Elemental Damage with Attack Skills",
+        "{variant:1,2,3,4}Adds (32-40) to (48-60) Cold Damage",
+        "{variant:5}Adds (48-60) to (72-90) Cold Damage",
+        "{variant:1,2,3,4}Adds 1 to (80-100) Lightning Damage",
+        "{variant:5}Adds 1 to (120-150) Lightning Damage",
+        "(10-15)% increased Attack Speed",
+        "{variant:1}(80-100)% increased Critical Strike Chance",
+        "{variant:2,3,4}(60-80)% increased Critical Strike Chance",
+        "{variant:5}(30-40)% increased Critical Strike Chance",
+        "{variant:1}25% increased Quantity of Items Dropped by Slain Frozen enemies",
+        "{variant:2,3,4,5}15% increased Quantity of Items Dropped by Slain Frozen Enemies",
+        "{variant:1}50% increased Rarity of Items Dropped by Slain Shocked enemies"
+      ]
+    },
+    {
+      "name": "Xoph's Inception",
+      "base": "Bone Bow",
+      "requirements": {
+        "level": 23,
+        "stats": "80 Dex"
+      },
+      "implicits": [
+        "(70-90)% increased Physical Damage"
+      ],
+      "explicits": [
+        "+(20-30) Life gained on Killing Ignited Enemies",
+        "Gain 20% of Physical Damage as Extra Fire Damage",
+        "10% chance to Ignite"
+      ],
+      "source": "Drops in Xoph Breach or from unique{Xoph, Dark Embers}",
+      "upgrade": "Upgrades to unique{Xoph's Nurture} using currency{Blessing of Xoph}",
+      "league": "Breach"
+    },
+    {
+      "name": "Xoph's Nurture",
+      "base": "Citadel Bow",
+      "variants": [
+        "Pre 3.3.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 64,
+        "stats": "185 Dex"
+      },
+      "implicits": [
+        "(250-300)% increased Physical Damage"
+      ],
+      "explicits": [
+        "50% of Physical Damage Converted to Fire Damage",
+        "10% chance to Ignite",
+        "{variant:1}Ignites your Skills cause spread to other Enemies within a Radius of 12",
+        "{variant:2}Ignites your Skills cause spread to other Enemies within a Radius of 15",
+        "Recover (40-60) Life when you Ignite an Enemy"
+      ],
+      "source": "Upgraded from unique{Xoph's Inception} using currency{Blessing of Xoph}",
+      "league": "Breach"
+    }
+  ]
+}

@@ -1,0 +1,1229 @@
+{
+  "Weapon: One Handed Sword": [
+    {
+      "name": "Ahn's Might",
+      "base": "Midnight Blade",
+      "requirements": {
+        "level": 68,
+        "stats": "313 Str"
+      },
+      "implicits": [
+        "40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "Adds (80-115) to (150-205) Physical Damage",
+        "(15-25)% increased Critical Strike Chance",
+        "-1 to Maximum Frenzy Charges",
+        "10% increased Area of Effect",
+        "+100 Strength Requirement",
+        "+50% Global Critical Strike Multiplier while you have no Frenzy Charges",
+        "+(400-500) to Accuracy Rating while at Maximum Frenzy Charges"
+      ]
+    },
+    {
+      "name": "Beltimber Blade",
+      "base": "Eternal Sword",
+      "variants": [
+        "Pre 3.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 66
+      },
+      "implicits": [
+        "+475 to Accuracy Rating "
+      ],
+      "explicits": [
+        "{variant:1}(170-190)% increased Physical Damage",
+        "{variant:2}(185-215)% increased Physical Damage",
+        "(10-15)% increased Attack Speed ",
+        "80% increased Evasion Rating while moving ",
+        "2 additional Projectiles if you've used a Movement Skill Recently ",
+        "Far Shot"
+      ],
+      "source": "Drops from unique{The Constrictor} (Tier 11+)"
+    },
+    {
+      "name": "Dreamfeather",
+      "base": "Eternal Sword",
+      "variants": [
+        "Pre 2.0.0",
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 66,
+        "stats": "104 Str"
+      },
+      "implicits": [
+        "{variant:1,2}18% increased Accuracy Rating",
+        "{variant:3}+475 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1,2}18% increased Accuracy Rating",
+        "{variant:3}+475 to Accuracy Rating",
+        "{variant:1}Adds (15-30) to (35-50) Physical Damage",
+        "{variant:2}Adds (20-40) to (55-70) Physical Damage",
+        "{variant:3}Adds (30-50) to (65-80) Physical Damage",
+        "(20-25)% increased Attack Speed",
+        "+(180-200) to Accuracy Rating",
+        "+(180-200) to Evasion Rating",
+        "3% increased Movement Speed"
+      ]
+    },
+    {
+      "name": "Ephemeral Edge",
+      "base": "Dusk Blade",
+      "variants": [
+        "Pre 2.0.0",
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 32,
+        "stats": "57 Str"
+      },
+      "implicits": [
+        "{variant:1,2}18% increased Accuracy Rating",
+        "{variant:3}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1,2}18% increased Accuracy Rating",
+        "{variant:3}40% increased Global Accuracy Rating",
+        "{variant:1}100% increased Physical Damage",
+        "{variant:2,3}150% increased Physical Damage",
+        "+10 to Intelligence",
+        "50% increased Global Critical Strike Chance",
+        "(0.6-1)% of Physical Attack Damage Leeched as Mana",
+        "10% reduced Maximum Life"
+      ]
+    },
+    {
+      "name": "The Goddess Scorned",
+      "base": "Elegant Sword",
+      "variants": [
+        "Pre 2.2.0",
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 28,
+        "stats": "46 Str"
+      },
+      "implicits": [
+        "{variant:1,2}18% Increased Accuracy Rating",
+        "{variant:3}+190 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1,2}18% Increased Accuracy Rating",
+        "{variant:3}+190 to Accuracy Rating",
+        "Uses both hand slots",
+        "(250-300)% increased Physical Damage",
+        "(90-110)% increased Critical Strike Chance",
+        "{variant:1}+(15-20)% to Global Critical Strike Multiplier",
+        "{variant:2,3}+(20-30)% to Global Critical Strike Multiplier",
+        "+(40-50)% to Fire Resistance",
+        "Cannot be Ignited",
+        "100% of Physical Damage Converted to Fire Damage",
+        "Ignited Enemies Burn 50% faster"
+      ],
+      "source": "Vendor Recipe"
+    },
+    {
+      "name": "The Goddess Unleashed",
+      "base": "Eternal Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 51,
+        "stats": "104 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+475 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+475 to Accuracy Rating",
+        "Uses both hand slots",
+        "Adds (3-6) to (33-66) Physical Damage",
+        "(44-66)% increased Critical Strike Chance",
+        "33% increased Ignite Duration on Enemies",
+        "(66-99)% of Sword Physical Damage Added as Fire Damage",
+        "Gain Her Blessing for 3 seconds when you Ignite an Enemy",
+        "33% chance to Blind nearby Enemies when gaining Her Blessing",
+        "Cannot be Frozen, Chilled or Ignited with Her Blessing"
+      ],
+      "source": "Vendor Recipe"
+    },
+    {
+      "name": "Grelwood Shank",
+      "base": "Eternal Sword",
+      "variants": [
+        "Pre 3.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 66
+      },
+      "implicits": [
+        "+475 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}(170-190)% increased Physical Damage",
+        "{variant:2}(185-215)% increased Physical Damage",
+        "(15-20)% increased Attack Speed",
+        "80% increased Armour while stationary",
+        "2 additional Projectiles if you've been Hit Recently",
+        "Point Blank",
+        "Iron Reflexes while stationary"
+      ],
+      "source": "Drops from unique{The Constrictor}"
+    },
+    {
+      "name": "Hyaon's Fury",
+      "base": "Legion Sword",
+      "variants": [
+        "Pre 1.3.0",
+        "Pre 2.0.0",
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 62,
+        "stats": "122 Str"
+      },
+      "implicits": [
+        "{variant:1,2,3}18% increased Accuracy Rating",
+        "{variant:4,5}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1,2,3}18% increased Accuracy Rating",
+        "{variant:4,5}40% increased Global Accuracy Rating",
+        "{variant:1,2}Adds 1 to (500-600) Lightning Damage",
+        "{variant:3,4,5}Adds 1 to (550-650) Lightning Damage",
+        "(7-10)% increased Attack Speed",
+        "{variant:1}6% increased Damage taken per Frenzy Charge",
+        "{variant:2,3,4}3% increased Damage taken per Frenzy Charge",
+        "{variant:5}1% increased Damage taken per Frenzy Charge",
+        "12% increased Lightning Damage per Frenzy Charge"
+      ]
+    },
+    {
+      "name": "Ichimonji",
+      "base": "Corsair Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 58,
+        "stats": "81 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "Adds (5-10) to (13-20) Physical Damage",
+        "{variant:1}(60-80)% increased Physical Damage",
+        "{variant:2}(80-95)% increased Physical Damage",
+        "{variant:1}(10-15)% increased Attack Speed",
+        "{variant:2}(20-25)% increased Attack Speed",
+        "5% reduced Mana Reserved",
+        "Allies' Aura Buffs do not affect you",
+        "Your Aura Buffs do not affect allies"
+      ]
+    },
+    {
+      "name": "Innsbury Edge",
+      "base": "Elder Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 47,
+        "stats": "81 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+330 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+330 to Accuracy Rating",
+        "(100-140)% increased Physical Damage",
+        "(17-25)% increased Attack Speed",
+        "0.2% of Chaos Damage Leeched as Life"
+      ]
+    },
+    {
+      "name": "Lakishu's Blade",
+      "base": "Elegant Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 28,
+        "stats": "46 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+190 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+190 to Accuracy Rating",
+        "(60-80)% increased Physical Damage",
+        "Adds (5-8) to (10-14) Physical Damage",
+        "(10-15)% increased Attack Speed",
+        "(30-40)% reduced Stun Recovery",
+        "20% chance to Avoid being Stunned"
+      ]
+    },
+    {
+      "name": "Oni-Goroshi",
+      "base": "Charan's Sword",
+      "requirements": {
+        "level": 2
+      },
+      "implicits": [
+        "Requires Level: 2"
+      ],
+      "explicits": [
+        "40% increased Global Accuracy Rating",
+        "Uses both hand slots",
+        "(70-90)% increased Critical Strike Chance",
+        "Adds 2 to 3 Physical Damage to Attacks per Level",
+        "Gain Her Embrace for 3 seconds when you Ignite an Enemy",
+        "While in Her Embrace, take 0.5% of your total Maximum Life and Energy Shield as Fire Damage per second per Level"
+      ],
+      "source": "Drops from unique{Hillock}"
+    },
+    {
+      "name": "The Princess",
+      "base": "Sabre",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 10,
+        "stats": "18 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "(20-50)% increased Physical Damage",
+        "Adds (3-4) to (5-8) Physical Damage",
+        "15% increased Attack Speed",
+        "{variant:1}Gain 10% of Physical Damage as Extra Cold Damage",
+        "{variant:2}Gain (25-30)% of Physical Damage as Extra Cold Damage",
+        "10% increased Damage taken from Skeletons"
+      ]
+    },
+    {
+      "name": "Prismatic Eclipse",
+      "base": "Twilight Blade",
+      "variants": [
+        "Pre 1.3.0",
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 53,
+        "stats": "91 Str"
+      },
+      "implicits": [
+        "{variant:1,2}18% increased Accuracy Rating",
+        "{variant:3}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1,2}18% increased Accuracy Rating",
+        "{variant:3}40% increased Global Accuracy Rating",
+        "{variant:1}10% additional Chance to Block while Dual Wielding",
+        "{variant:2,3}8% additional Chance to Block while Dual Wielding",
+        "Adds (20-30) to (31-40) Physical Damage",
+        "25% increased Physical Damage with Weapons per Red Socket",
+        "12% increased Global Attack Speed per Green Socket",
+        "0.4% of Physical Attack Damage Leeched as Mana per Blue Socket"
+      ]
+    },
+    {
+      "name": "Razor of the Seventh Sun ",
+      "base": "Midnight Blade",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.5.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 68,
+        "stats": "113 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}40% increased Global Accuracy Rating",
+        "{variant:1,2}Adds (65-75) to (110-130) Physical Damage",
+        "{variant:3}Adds (90-110) to (145-170) Physical Damage",
+        "{variant:3}25% of Physical Damage Converted to Fire Damage",
+        "{variant:3}25% chance to Ignite",
+        "100% increased Burning Damage if you've Ignited an Enemy Recently",
+        "Recover 1% of Maximum Life when you Ignite an Enemy"
+      ],
+      "source": "Drops from unique{Guardian of the Phoenix}"
+    },
+    {
+      "name": "Rebuke of the Vaal",
+      "base": "Vaal Blade",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 64,
+        "stats": "113 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+460 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+460 to Accuracy Rating",
+        "Adds (19-28) to (31-40) Physical Damage",
+        "Adds (19-28) to (31-40) Fire Damage",
+        "Adds (19-28) to (31-40) Cold Damage",
+        "Adds 1 to (50-70) Lightning Damage",
+        "Adds (19-28) to (31-40) Chaos Damage"
+      ]
+    },
+    {
+      "name": "Redbeak",
+      "base": "Rusted Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 2
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "100% increased Damage when on Low Life",
+        "50% increased Physical Damage",
+        "Adds 2 to 6 Physical Damage",
+        "10% increased Attack Speed",
+        "+(20-30) to maximum Life"
+      ],
+      "upgrade": "Upgrades to unique{Dreadbeak} via prophecy{The Dreaded Rhoa}"
+    },
+    {
+      "name": "Dreadbeak",
+      "base": "Rusted Sword",
+      "requirements": {
+        "level": 61
+      },
+      "implicits": [
+        "40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "100% increased Damage when on Low Life",
+        "50% increased Physical Damage",
+        "Adds (90-98) to (133-140) Physical Damage",
+        "10% increased Attack Speed",
+        "+(20-30) to maximum Life",
+        "+2 Life gained for each Enemy hit by Attacks",
+        "You have Onslaught while on Low Life"
+      ],
+      "source": "Upgraded from unique{Redbeak} via prophecy{The Dreaded Rhoa}"
+    },
+    {
+      "name": "Rigwald's Command",
+      "base": "Midnight Blade",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 68,
+        "stats": "113 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "10% additional Block Chance while Dual Wielding",
+        "Adds (60-80) to (150-180) Physical Damage",
+        "80% increased Physical Damage with Axes",
+        "+(350-400) to Accuracy Rating"
+      ],
+      "source": "Drops from unique{Rigwald, the Wolven King} (Level 75+)",
+      "league": "Talisman Standard, Talisman Hardcore"
+    },
+    {
+      "name": "The Rippling Thoughts",
+      "base": "Legion Sword",
+      "requirements": {
+        "level": 62,
+        "stats": "122 Str"
+      },
+      "implicits": [
+        "40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "Grants Summon Harbinger of the Arcane Skill",
+        "Trigger level 20 Storm Cascade when you Attack",
+        "(75-90)% increased Spell Damage",
+        "(140-160)% increased Physical Damage",
+        "Adds 1 to (60-70) Lightning Damage",
+        "Adds 1 to (60-70) Lightning Damage to Spells",
+        "10% increased Area of Effect of Area Skills"
+      ],
+      "league": "Harbinger"
+    },
+    {
+      "name": "Scaeva",
+      "base": "Gladius",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 60,
+        "stats": "113 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "Adds (75-92) to (125-154) Physical Damage",
+        "(15-25)% increased Critical Strike Chance",
+        "0.3% of Physical Attack Damage Leeched as Life per Red Socket",
+        "+10% to Global Critical Strike Multiplier per Green Socket",
+        "0.3% of Physical Attack Damage Leeched as Mana per Blue Socket",
+        "8% increased Global Defences per White Socket",
+        "(60-80)% increased Critical Strike Chance when in Main Hand"
+      ]
+    },
+    {
+      "name": "Severed in Sleep",
+      "base": "Cutlass",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 38,
+        "stats": "55 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}40% increased Global Accuracy Rating",
+        "+(10-20) to all Attributes",
+        "Minions deal (20-30)% increased Damage",
+        "Minions have +17% to Chaos Resistance",
+        "{variant:1,2}Minions Poison Enemies on Hit",
+        "{variant:3}Minions have 60% chance to Poison Enemies on Hit"
+      ],
+      "source": "Drops in Chayula Breach or from unique{Chayula, Who Dreamt}",
+      "upgrade": "Upgrades to unique{United in Dream} using currency{Blessing of Chayula}",
+      "league": "Breach"
+    },
+    {
+      "name": "United in Dream",
+      "base": "Cutlass",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 69,
+        "stats": "55 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}40% increased Global Accuracy Rating",
+        "Grants level 15 Envy Skill",
+        "Minions deal (30-40)% increased Damage",
+        "Minions have +29% to Chaos Resistance",
+        "{variant:1,2}Minions Poison Enemies on Hit",
+        "{variant:3}Minions have 60% chance to Poison Enemies on Hit"
+      ],
+      "source": "Upgraded from unique{Severed in Sleep} using currency{Blessing of Chayula}",
+      "league": "Breach"
+    },
+    {
+      "name": "Story of the Vaal",
+      "base": "Variscite Blade",
+      "requirements": {
+        "level": 35
+      },
+      "implicits": [
+        "+240 to Accuracy Rating"
+      ],
+      "explicits": [
+        "(110-120)% increased Physical Damage",
+        "(10-15)% increased Attack Speed",
+        "+(20-30) Life gained on Kill",
+        "50% of Physical Damage from Hits with this Weapon is Converted to a random Element",
+        "Hits with this Weapon always inflict Elemental Ailments"
+      ],
+      "upgrade": "Upgrades to unique{Fate of the Vaal} via currency{Vial of Fate}",
+      "league": "Incursion"
+    },
+    {
+      "name": "Fate of the Vaal",
+      "base": "Gemstone Sword",
+      "requirements": {
+        "level": 56
+      },
+      "implicits": [
+        "+400 to Accuracy Rating"
+      ],
+      "explicits": [
+        "(160-180)% increased Physical Damage",
+        "(10-15)% increased Attack Speed",
+        "100% of Physical Damage from Hits with this Weapon is Converted to a random Element",
+        "Hits with this Weapon always inflict Elemental Ailments",
+        "Hits with this Weapon deal (30-60)% increased Damage to Ignited Enemies",
+        "Hits with this Weapon deal (30-60)% increased Damage to Frozen Enemies",
+        "Hits with this Weapon deal (30-60)% increased Damage to Shocked Enemies"
+      ],
+      "source": "Upgraded from unique{Story of the Vaal} via currency{Vial of Fate}",
+      "league": "Incursion"
+    },
+    {
+      "name": "The Tempestuous Steel",
+      "base": "War Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 20,
+        "stats": "41 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "Adds (5-8) to (15-20) Physical Damage",
+        "(8-14)% increased Attack Speed",
+        "Hits can't be Evaded",
+        "Attacks with this Weapon Penetrate 30% Elemental Resistances",
+        "15% of Physical Attack Damage Added as Lightning Damage"
+      ]
+    },
+    {
+      "name": "Varunastra",
+      "base": "Vaal Blade",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 64,
+        "stats": "113 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+460 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+460 to Accuracy Rating",
+        "(40-60)% increased Physical Damage",
+        "Adds (30-45) to (80-100) Physical Damage",
+        "+(2-3) Mana gained for each Enemy hit by Attacks"
+      ],
+      "league": "Perandus"
+    }
+  ],
+  "Weapon: Thrusting Sword": [
+    {
+      "name": "Aurumvorax",
+      "base": "Basket Rapier",
+      "variants": [
+        "Pre 2.2.0",
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 17,
+        "stats": "62 Dex"
+      },
+      "implicits": [
+        "{variant:1}+20% to Global Critical Strike Multiplier",
+        "{variant:2}+30% to Global Critical Strike Multiplier",
+        "{variant:3}+25% to Global Critical Strike Multiplier"
+      ],
+      "explicits": [
+        "{variant:1}+20% to Global Critical Strike Multiplier",
+        "{variant:2}+30% to Global Critical Strike Multiplier",
+        "{variant:3}+25% to Global Critical Strike Multiplier",
+        "(120-150)% increased Physical Damage",
+        "20% reduced Rarity of Items found",
+        "+(40-60)% to all Elemental Resistances"
+      ]
+    },
+    {
+      "name": "Chitus' Needle",
+      "base": "Elegant Foil",
+      "variants": [
+        "Pre 2.2.0",
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 30,
+        "stats": "101 Dex"
+      },
+      "implicits": [
+        "{variant:1}+20% to Global Critical Strike Multiplier",
+        "{variant:2}+30% to Global Critical Strike Multiplier",
+        "{variant:3}+25% to Global Critical Strike Multiplier"
+      ],
+      "explicits": [
+        "{variant:1}+20% to Global Critical Strike Multiplier",
+        "{variant:2}+30% to Global Critical Strike Multiplier",
+        "{variant:3}+25% to Global Critical Strike Multiplier",
+        "(140-160)% increased Physical Damage",
+        "+30 to Strength",
+        "+30 to Maximum Mana",
+        "5% increased Movement Speed",
+        "30% increased Elemental Damage"
+      ]
+    },
+    {
+      "name": "Cospri's Malice ",
+      "base": "Jewelled Foil",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 68,
+        "stats": "212 Dex"
+      },
+      "implicits": [
+        "{variant:1}+30% to Global Critical Strike Multiplier",
+        "{variant:2}+25% to Global Critical Strike Multiplier"
+      ],
+      "explicits": [
+        "{variant:1}+30% to Global Critical Strike Multiplier",
+        "{variant:2}+25% to Global Critical Strike Multiplier",
+        "No Physical Damage",
+        "Adds (80-100) to (160-200) Cold Damage",
+        "Adds (40-60) to (90-110) Cold Damage to Spells",
+        "(8-14)% increased Attack Speed",
+        "+257 Intelligence Requirement",
+        "60% increased Critical Strike Chance against Chilled Enemies"
+      ]
+    },
+    {
+      "name": "Daresso's Passion",
+      "base": "Estoc",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 43,
+        "stats": "140 Dex"
+      },
+      "implicits": [
+        "{variant:1}+30% to Global Critical Strike Multiplier",
+        "{variant:2}+25% to Global Critical Strike Multiplier"
+      ],
+      "explicits": [
+        "{variant:1}+30% to Global Critical Strike Multiplier",
+        "{variant:2}+25% to Global Critical Strike Multiplier",
+        "Adds (30-38) to (40-50) Physical Damage",
+        "Adds (30-38) to (40-50) Cold Damage",
+        "20% reduced Frenzy Charge Duration",
+        "25% chance to gain a Frenzy Charge on Kill"
+      ]
+    },
+    {
+      "name": "Ewar's Mirage",
+      "base": "Antique Rapier",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 26,
+        "stats": "89 Dex"
+      },
+      "implicits": [
+        "{variant:1}+30% to Global Critical Strike Multiplier",
+        "{variant:2,3}+25% to Global Critical Strike Multiplier"
+      ],
+      "explicits": [
+        "{variant:1}+30% to Global Critical Strike Multiplier",
+        "{variant:2,3}+25% to Global Critical Strike Multiplier",
+        "{variant:1,2}(40-55)% increased Elemental Damage with Weapons",
+        "{variant:3}(40-55)% increased Elemental Damage with Attack Skills",
+        "Adds 1 to (45-55) Lightning Damage",
+        "(16-22)% increased Attack Speed",
+        "Attacks Chain an additional time when in Main Hand"
+      ]
+    },
+    {
+      "name": "Fidelitas' Spike",
+      "base": "Jagged Foil",
+      "variants": [
+        "Pre 2.2.0",
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 22,
+        "stats": "77 Dex"
+      },
+      "implicits": [
+        "{variant:1}+20% to Global Critical Strike Multiplier",
+        "{variant:2}+30% to Global Critical Strike Multiplier",
+        "{variant:3}+25% to Global Critical Strike Multiplier"
+      ],
+      "explicits": [
+        "{variant:1}+20% to Global Critical Strike Multiplier",
+        "{variant:2}+30% to Global Critical Strike Multiplier",
+        "{variant:3}+25% to Global Critical Strike Multiplier",
+        "No Physical Damage",
+        "Adds 1 to (40-50) Lightning Damage",
+        "(25-30)% increased Attack Speed",
+        "+2 Life gained for each Enemy hit by Attacks",
+        "{variant:1,2}5% Chance to Shock",
+        "{variant:3}(15-20)% Chance to Shock"
+      ]
+    },
+    {
+      "name": "The Goddess Bound",
+      "base": "Whalebone Rapier",
+      "variants": [
+        "Pre 2.2.0",
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 7,
+        "stats": "32 Dex"
+      },
+      "implicits": [
+        "{variant:1}+20% to Global Critical Strike Multiplier",
+        "{variant:2}+30% to Global Critical Strike Multiplier",
+        "{variant:3}+25% to Global Critical Strike Multiplier"
+      ],
+      "explicits": [
+        "{variant:1}+20% to Global Critical Strike Multiplier",
+        "{variant:2}+30% to Global Critical Strike Multiplier",
+        "{variant:3}+25% to Global Critical Strike Multiplier",
+        "+1 to Level of Socketed Melee Gems",
+        "Uses both hand slots",
+        "(250-300)% increased Physical Damage",
+        "Adds 3 to 7 Fire Damage",
+        "20% increased Attack Speed",
+        "30% increased Global Critical Strike Chance",
+        "+(20-40) to Evasion Rating",
+        "20% reduced Rarity of Items found"
+      ]
+    }
+  ],
+  "Weapon: Two Handed Sword": [
+    {
+      "name": "The Dancing Dervish",
+      "base": "Reaver Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 59,
+        "stats": "82 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "(160-190)% increased Physical Damage",
+        "(25-30)% increased Attack Speed",
+        "5% increased Movement Speed",
+        "Rampage",
+        "Triggers Level 15 Manifest Dancing Dervish on Rampage",
+        "Manifested Dancing Dervish disables both weapon slots"
+      ],
+      "upgrade": "Upgrades to unique{The Dancing Duo} via prophecy{Dance of Steel}"
+    },
+    {
+      "name": "The Dancing Duo",
+      "base": "Reaver Sword",
+      "requirements": {
+        "level": 65
+      },
+      "implicits": [
+        "40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "(160-190)% increased Physical Damage",
+        "(25-30)% increased Attack Speed",
+        "5% increased Movement Speed",
+        "Rampage",
+        "Triggers Level 15 Manifest Dancing Dervish on Rampage",
+        "Manifested Dancing Dervish disables both weapon slots",
+        "Manifested Dancing Dervish dies when Rampage ends",
+        "Manifested Dancing Dervish also manifests a copy of Dancing Dervish"
+      ],
+      "source": "Upgraded from unique{The Dancing Dervish} via prophecy{Dance of Steel}"
+    },
+    {
+      "name": "Doomsower",
+      "base": "Lion Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 65,
+        "stats": "104 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}+470 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}+470 to Accuracy Rating",
+        "Socketed Melee Gems have 15% increased Area of Effect",
+        "Socketed Red Gems get 10% Physical Damage as Extra Fire Damage",
+        "(50-70)% increased Physical Damage",
+        "{variant:1,2}Adds (50-75) to (85-110) Physical Damage",
+        "{variant:3}Adds (65-75) to (100-110) Physical Damage"
+      ]
+    },
+    {
+      "name": "Edge of Madness",
+      "base": "Etched Greatsword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 22,
+        "stats": "45 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "+1 to Level of Active Socketed Skill Gems",
+        "(40-60)% increased Physical Damage",
+        "Adds (60-65) to (90-105) Chaos Damage",
+        "{variant:2}Adds 1 to 2 Physical Damage to Attacks per Level",
+        "{variant:1}+1 Life gained on Kill per Level",
+        "{variant:1}1% increased Elemental Damage per Level"
+      ],
+      "league": "Beyond"
+    },
+    {
+      "name": "Hiltless",
+      "base": "Reaver Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 59,
+        "stats": "82 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "Socketed Gems are Supported by level 1 Blood Magic",
+        "Adds (90-115) to (230-260) Physical Damage",
+        "(40-50)% increased Critical Strike Chance",
+        "Enemies you Attack Reflect 100 Physical Damage to you"
+      ]
+    },
+    {
+      "name": "Kondo's Pride ",
+      "base": "Ezomyte Blade",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 61,
+        "stats": "113 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}+435 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}+435 to Accuracy Rating",
+        "(270-320)% increased Physical Damage",
+        "0.6% of Physical Attack Damage Leeched as Life",
+        "50% increased Melee Damage against Bleeding Enemies",
+        "Cannot Leech Life from Critical Strikes",
+        "30% chance to Blind Enemies on Critical Strike",
+        "{variant:1,2}Causes Bleeding on Melee Critical Strike"
+      ]
+    },
+    {
+      "name": "Oro's Sacrifice",
+      "base": "Infernal Sword",
+      "variants": [
+        "Pre 1.3.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 67,
+        "stats": "113 Str"
+      },
+      "implicits": [
+        "30% increased Accuracy Rating"
+      ],
+      "explicits": [
+        "No Physical Damage",
+        "Adds (425-475) to (550-600) Fire Damage",
+        "(10-15)% increased Attack Speed",
+        "20% chance to Ignite",
+        "{variant:1}20% increased Physical Damage taken",
+        "{variant:2}10% increased Physical Damage taken",
+        "{variant:1}20% increased Fire Damage taken",
+        "{variant:2}10% increased Fire Damage taken",
+        "Culling Strike against Burning Enemies",
+        "Gain a Frenzy Charge if an Attack Ignites an Enemy"
+      ]
+    },
+    {
+      "name": "Queen's Decree",
+      "base": "Ornate Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 27,
+        "stats": "56 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}+185 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}+185 to Accuracy Rating",
+        "Minions have (10-15)% increased maximum Life",
+        "(150-200)% increased Skeleton Duration",
+        "Minions deal (10-15)% increased Damage",
+        "+1 to maximum number of Zombies",
+        "+1 to maximum number of Spectres",
+        "{variant:1,2}+2 to maximum number of Skeletons",
+        "{variant:3}+1 to maximum number of Skeletons"
+      ],
+      "upgrade": "Upgrades to unique{Queen's Escape} via prophecy{The Misunderstood Queen}"
+    },
+    {
+      "name": "Queen's Escape",
+      "base": "Ornate Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 38,
+        "stats": "56 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}+185 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2,3}+185 to Accuracy Rating",
+        "Minions have (10-15)% increased maximum Life",
+        "Minions have (80-100)% increased Movement Speed",
+        "(150-200)% increased Skeleton Duration",
+        "Minions deal (10-15)% increased Damage",
+        "+1 to maximum number of Zombies",
+        "+1 to maximum number of Spectres",
+        "{variant:1,2}+2 to maximum number of Skeletons",
+        "{variant:3}+1 to maximum number of Skeletons"
+      ],
+      "source": "Upgraded from unique{Queen's Decree} using prophecy{The Misunderstood Queen}"
+    },
+    {
+      "name": "Rigwald's Charge",
+      "base": "Highland Blade",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 44,
+        "stats": "77 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+305 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+305 to Accuracy Rating",
+        "(120-150)% increased Physical Damage",
+        "20% increased Attack Speed",
+        "+(150-200) to Accuracy Rating"
+      ]
+    },
+    {
+      "name": "Shiversting",
+      "base": "Bastard Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 14,
+        "stats": "21 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}40% increased Global Accuracy Rating",
+        "(80-100)% increased Physical Damage",
+        "Adds 35 to 70 Cold Damage",
+        "0.6% of Physical Attack Damage Leeched as Mana"
+      ]
+    },
+    {
+      "name": "Starforge ",
+      "base": "Infernal Sword",
+      "requirements": {
+        "level": 67,
+        "stats": "113 Str"
+      },
+      "implicits": [
+        "30% increased Accuracy Rating"
+      ],
+      "explicits": [
+        "(400-500)% increased Physical Damage",
+        "(5-8)% increased Attack Speed",
+        "+(90-100) to maximum Life",
+        "20% increased Area of Effect for Attacks",
+        "Deal no Elemental Damage",
+        "Your Physical Damage can Shock"
+      ],
+      "source": "Drops from unique{The Shaper}",
+      "shaper": true
+    },
+    {
+      "name": "Terminus Est",
+      "base": "Tiger Sword",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "requirements": {
+        "level": 51,
+        "stats": "80 Str"
+      },
+      "implicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+360 to Accuracy Rating"
+      ],
+      "explicits": [
+        "{variant:1}18% increased Accuracy Rating",
+        "{variant:2}+360 to Accuracy Rating",
+        "{variant:1}(120-180)% increased Physical Damage",
+        "{variant:2}(220-260)% increased Physical Damage",
+        "{variant:2}(50-75)% increased Critical Strike Chance",
+        "20% increased Attack Speed",
+        "+10 Mana Gained on Kill",
+        "10% increased Movement Speed"
+      ]
+    },
+    {
+      "name": "Voidforge",
+      "base": "Infernal Sword",
+      "requirements": {
+        "level": 67
+      },
+      "implicits": [
+        "30% increased Accuracy Rating"
+      ],
+      "explicits": [
+        "(50-100)% increased Physical Damage",
+        "(5-8)% increased Attack Speed",
+        "+(90-100) to maximum Life",
+        "Your Elemental Damage can Shock",
+        "Gain 300% of Weapon Physical Damage as Extra Damage of an Element",
+        "20% increased Area of Effect for Attacks",
+        "Deal no Non-Elemental Damage",
+        "Elder Item"
+      ],
+      "source": "Drops from unique{The Elder} (Uber)",
+      "elder": true
+    }
+  ]
+}
