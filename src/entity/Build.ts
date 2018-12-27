@@ -32,7 +32,7 @@ export class Build extends BaseEntity {
   @Column({ type: "text" })
   item_text: string;
 
-  @ManyToMany(type => Item, { eager: true, cascade: true })
+  @ManyToMany(type => Item, { eager: true })
   @JoinTable({ name: "build_items" })
   items: Item[];
 

@@ -25,7 +25,14 @@ export default {
       });
 
       build.items = [];
-      const slots = ["helmet", "sword", "ring", "boots", "gloves", "belt"];
+      const slots = [
+        "Helmet",
+        "Weapon:One Handed Sword",
+        "Ring",
+        "Boots:Armour",
+        "Gloves:Evasion",
+        "Belt"
+      ];
       for (let i = 0; i < slots.length; i++) {
         const items = await Item.find({ slot: slots[i] });
         const index = Math.floor(Math.random() * (items.length - 1));

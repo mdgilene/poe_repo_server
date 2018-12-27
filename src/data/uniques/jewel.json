@@ -1,0 +1,1448 @@
+{
+  "Jewel: Drop": [
+    {
+      "name": "Anatomical Knowledge",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "(6-8)% increased maximum Life",
+        "Adds 1 to Maximum Life per 3 Intelligence Allocated in Radius"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "The Anima Stone",
+      "base": "Prismatic Jewel",
+      "explicits": [
+        "Can Summon up to 1 additional Golem at a time",
+        "+1 to maximum number of Summoned Golems if you have 3 Primordial Items Socketed or Equipped"
+      ],
+      "source": "Vendor Recipe"
+    },
+    {
+      "name": "Apparitions",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Minions have (2-5)% additional chance to Dodge Attacks"
+      ]
+    },
+    {
+      "name": "Army of Bones",
+      "base": "Cobalt Jewel",
+      "variants": [
+        "Pre 3.0.0"
+      ],
+      "explicits": [
+        "+2 to maximum number of Skeletons",
+        "(10-20)% reduced Skeleton Duration"
+      ]
+    },
+    {
+      "name": "The Blue Dream",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Gain 5% of Lightning Damage as Extra Chaos Damage",
+        "Passives granting Lightning Resistance or all Elemental Resistances in Radius",
+        "also grant an equal chance to gain a Power Charge on Kill"
+      ],
+      "source": "Drops in Chayula Breach or from unique{Chayula, Who Dreamt}",
+      "upgrade": "Upgrades to unique{The Blue Nightmare} using currency{Blessing of Chayula}",
+      "league": "Breach",
+      "radius": "Large"
+    },
+    {
+      "name": "The Blue Nightmare",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Large",
+        "Gain 5% of Lightning Damage as Extra Chaos Damage",
+        "Passives granting Lightning Resistance or all Elemental Resistances in Radius",
+        "also grant Chance to Block Spells at 35% of its value",
+        "Passives granting Lightning Resistance or all Elemental Resistances in Radius",
+        "also grant an equal chance to gain a Power Charge on Kill"
+      ],
+      "source": "Upgraded from unique{The Blue Dream} using currency{Blessing of Chayula}",
+      "league": "Breach",
+      "radius": "Large"
+    },
+    {
+      "name": "Brawn",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "(4-6)% increased Strength",
+        "(10-15)% reduced Intelligence"
+      ]
+    },
+    {
+      "name": "Brute Force Solution",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "+(16-24) to Intelligence",
+        "Strength from Passives in Radius is Transformed to Intelligence"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Careful Planning",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "+(16-24) to Dexterity",
+        "Intelligence from Passives in Radius is Transformed to Dexterity"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Cheap Construction",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Can have up to 1 additional Trap placed at a time"
+      ]
+    },
+    {
+      "name": "Clear Mind",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "(20-30)% increased Mana Regeneration Rate",
+        "(40-60)% increased Spell Damage while no Mana is Reserved"
+      ]
+    },
+    {
+      "name": "Coated Shrapnel",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Traps and Mines have a 25% chance to Poison on Hit"
+      ]
+    },
+    {
+      "name": "Cold Steel",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Increases and Reductions to Physical Damage in Radius are Transformed to apply to Cold Damage",
+        "Increases and Reductions to Cold Damage in Radius are Transformed to apply to Physical Damage"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Efficient Training",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "+(16-24) to Strength",
+        "Intelligence from Passives in Radius is Transformed to Strength"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Eldritch Knowledge",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "5% increased Chaos Damage per 10 Intelligence from Allocated Passives in Radius"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Energised Armour",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "(15-20)% increased Armour",
+        "Increases and Reductions to Energy Shield in Radius are Transformed to apply to Armour at 200% of their value"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Energy From Within",
+      "base": "Cobalt Jewel",
+      "variants": [
+        "Pre 2.5.0",
+        "Current"
+      ],
+      "explicits": [
+        "{variant:1}(8-12)% increased maximum Energy Shield",
+        "{variant:2}(3-6)% increased maximum Energy Shield",
+        "Increases and Reductions to Life in Radius are Transformed to apply to Energy Shield"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Fertile Mind",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "+(16-24) to Intelligence",
+        "Dexterity from Passives in Radius is Transformed to Intelligence"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Fireborn",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Increases and Reductions to other Damage Types in Radius are Transformed to apply to Fire Damage"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Fluid Motion",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "+(16-24) to Dexterity",
+        "Strength from Passives in Radius is Transformed to Dexterity"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Fortified Legion",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Minions have (5-15)% increased maximum Life",
+        "Minions Recover 2% of their Maximum Life when they Block"
+      ]
+    },
+    {
+      "name": "Fragile Bloom",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "10% increased Damage taken"
+      ]
+    },
+    {
+      "name": "From Dust",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Summon 2 additional Skeleton Warriors with Summon Skeleton",
+        "+1 second to Summon Skeleton Cooldown"
+      ]
+    },
+    {
+      "name": "The Golden Rule",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Bleeding you inflict is Reflected to you ",
+        "+1% to Chaos Resistance per Poison on you ",
+        "Poison you inflict is Reflected to you"
+      ]
+    },
+    {
+      "name": "Grand Spectrum",
+      "base": "Cobalt Jewel",
+      "variants": [
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "explicits": [
+        "{variant:1}Gain 15 Mana per Grand Spectrum",
+        "{variant:2}Gain 30 Mana per Grand Spectrum"
+      ]
+    },
+    {
+      "name": "Grand Spectrum",
+      "base": "Crimson Jewel",
+      "variants": [
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "explicits": [
+        "{variant:1}Gain 75 Armour per Grand Spectrum",
+        "{variant:2}Gain 200 Armour per Grand Spectrum"
+      ]
+    },
+    {
+      "name": "Grand Spectrum",
+      "base": "Viridian Jewel",
+      "variants": [
+        "Pre 2.5.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "explicits": [
+        "{variant:1}5% increased Elemental Damage per Grand Spectrum",
+        "{variant:2}4% increased Elemental Damage per Grand Spectrum",
+        "{variant:3}12% increased Elemental Damage per Grand Spectrum"
+      ]
+    },
+    {
+      "name": "The Green Dream",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Gain 5% of Cold Damage as Extra Chaos Damage",
+        "Passives granting Cold Resistance or all Elemental Resistances in Radius",
+        "also grant an equal chance to gain a Frenzy Charge on Kill"
+      ],
+      "source": "Drops in Chayula Breach or from unique{Chayula, Who Dreamt}",
+      "upgrade": "Upgrades to unique{The Green Nightmare} using currency{Blessing of Chayula}",
+      "league": "Breach",
+      "radius": "Large"
+    },
+    {
+      "name": "The Green Nightmare",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Radius: Large",
+        "Gain 5% of Cold Damage as Extra Chaos Damage",
+        "Passives granting Cold Resistance or all Elemental Resistances in Radius",
+        "also grant Chance to Dodge Attacks at 35% of its value",
+        "Passives granting Cold Resistance or all Elemental Resistances in Radius",
+        "also grant an equal chance to gain a Frenzy Charge on Kill"
+      ],
+      "source": "Upgraded from unique{The Green Dream} using currency{Blessing of Chayula}",
+      "league": "Breach",
+      "radius": "Large"
+    },
+    {
+      "name": "Hair Trigger",
+      "base": "Viridian Jewel",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "explicits": [
+        "{variant:1}(20-30)% increased Trap Trigger Radius",
+        "{variant:2}(40-60)% increased Trap Trigger Area of Effect"
+      ]
+    },
+    {
+      "name": "Healthy Mind",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "(15-20)% increased maximum Mana",
+        "Increases and Reductions to Life in Radius are Transformed to apply to Mana at 200% of their value"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Hidden Potential",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "(20-25)% increased Damage for each Equipped Magic Item"
+      ]
+    },
+    {
+      "name": "Hotfooted",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "(10-15)% increased Movement Speed while Ignited"
+      ]
+    },
+    {
+      "name": "Inertia",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "+(16-24) to Strength",
+        "Dexterity from Passives in Radius is Transformed to Strength"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Inspired Learning",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "If 4 Notables are Allocated in Radius, When you Kill a Rare monster, you gain 1",
+        "of its mods for 20 seconds"
+      ],
+      "radius": "Small"
+    },
+    {
+      "name": "Intuitive Leap",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Passives in Radius can be Allocated without being connected to your tree"
+      ],
+      "radius": "Small"
+    },
+    {
+      "name": "Izaro's Turmoil",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "(18-25)% increased Cold Damage",
+        "2% chance to Freeze",
+        "2% chance to Ignite"
+      ],
+      "source": "Drops in The Lord's Labyrinth"
+    },
+    {
+      "name": "Lioneye's Fall",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Melee and Melee Weapon Type modifiers in Radius are Transformed to Bow Modifiers"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Malicious Intent",
+      "base": "Cobalt Jewel",
+      "explicits": []
+    },
+    {
+      "name": "Mantra of Flames",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Adds (3-5) to (8-12) Fire Attack Damage per Buff on You",
+        "Adds (2-3) to (5-8) Fire Spell Damage per Buff on You"
+      ]
+    },
+    {
+      "name": "Martial Artistry",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "(10-15)% increased Area of Effect while Unarmed"
+      ]
+    },
+    {
+      "name": "Might in All Forms",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Dexterity and Intelligence from passives in Radius count towards Strength Melee Damage bonus"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Might of the Meek",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "50% increased Effect of non-Keystone Passive Skills in Radius",
+        "Notable Passive Skills in Radius grant nothing"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Primordial Eminence",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "30% increased Effect of Buffs granted by your Golems",
+        "Golems have +(800-1000) to Armour",
+        "Primordial"
+      ]
+    },
+    {
+      "name": "Primordial Harmony",
+      "base": "Cobalt Jewel",
+      "variants": [
+        "Pre 3.3.0",
+        "Current"
+      ],
+      "explicits": [
+        "{variant:1}Golems have (10-15)% increased Cooldown Recovery Speed",
+        "{variant:2}Golems have (30-45)% increased Cooldown Recovery Speed",
+        "(16-20)% increased Golem Damage for each Type of Golem you have Summoned",
+        "Golems regenerate 2% of their Maximum Life per second",
+        "Primordial"
+      ]
+    },
+    {
+      "name": "Primordial Might",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Golems Summoned in the past 8 seconds deal (35-45)% increased Damage",
+        "Golems have (18-22)% increased Maximum Life",
+        "Your Golems are aggressive",
+        "Primordial"
+      ]
+    },
+    {
+      "name": "Pugilist",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "1% increased Evasion Rating per 3 Dexterity Allocated in Radius",
+        "1% increased Claw Physical Damage per 3 Dexterity Allocated in Radius",
+        "1% increased Melee Physical Damage while Unarmed per 3 Dexterity Allocated in Radius"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Pure Talent",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "While your Passive Skill Tree connects to a class' Starting location, you gain:",
+        "Marauder: Melee Skills have 15% increased Area of Effect",
+        "Duelist: 1% of Attack Damage Leeched as Life",
+        "Ranger: 7% increased Movement Speed",
+        "Shadow: +0.5 to Critical Strike Chance",
+        "Witch: 0.5% of Maximum Mana Regenerated per second",
+        "Templar: Damage Penetrates 5% Elemental Resistances",
+        "Scion: +25 to All Attributes"
+      ]
+    },
+    {
+      "name": "Rain of Splinters",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "(30-50)% reduced Totem Damage",
+        "Totems Fire 2 additional Projectiles"
+      ]
+    },
+    {
+      "name": "Reckless Defence",
+      "base": "Cobalt Jewel",
+      "variants": [
+        "Pre 3.0.0",
+        "Pre 3.4.0",
+        "Current"
+      ],
+      "explicits": [
+        "{variant:2}+6% chance to Block Spell Damage",
+        "{variant:3}+(2-4)% chance to Block Spell Damage",
+        "(2-4)% chance to Block Attack Damage",
+        "(7-10)% additional Chance to receive a Critical Strike"
+      ]
+    },
+    {
+      "name": "The Red Dream",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Gain 5% of Fire Damage as Extra Chaos Damage",
+        "Passives granting Fire Resistance or all Elemental Resistances in Radius",
+        "also grant an equal chance to gain an Endurance Charge on Kill"
+      ],
+      "source": "Drops in Chayula Breach or from unique{Chayula, Who Dreamt}",
+      "upgrade": "Upgrades to unique{The Red Nightmare} using currency{Blessing of Chayula}",
+      "league": "Breach",
+      "radius": "Large"
+    },
+    {
+      "name": "The Red Nightmare",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Radius: Large",
+        "Gain 5% of Fire Damage as Extra Chaos Damage",
+        "Passives granting Fire Resistance or all Elemental Resistances in Radius",
+        "also grant Chance to Block at 35% of its value",
+        "Passives granting Fire Resistance or all Elemental Resistances in Radius",
+        "also grant an equal chance to gain an Endurance Charge on Kill"
+      ],
+      "source": "Upgraded from unique{The Red Dream} using currency{Blessing of Chayula}",
+      "league": "Breach",
+      "radius": "Large"
+    },
+    {
+      "name": "Soul's Wick",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "+2 to maximum number of Spectres",
+        "(40–50)% reduced Mana Cost of Raise Spectre ",
+        "Spectres have (800–1000)% increased Critical Strike Chance ",
+        "Spectres have a Base Duration of 20 seconds",
+        "Spectres do not travel between Areas"
+      ]
+    },
+    {
+      "name": "Spire of Stone",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Radius: Large",
+        "3% increased Totem Life per 10 Strength Allocated in Radius",
+        "Totems cannot be Stunned"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Static Electricity",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Adds 1 maximum Lightning Damage to Attacks per 1 Dexterity Allocated in Radius",
+        "Adds 1 to 2 Lightning Damage to Attacks"
+      ],
+      "radius": "Large"
+    },
+    {
+      "name": "Tempered Flesh",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "-1 Strength per 1 Strength on Allocated Passives in Radius",
+        "+5% to Critical Strike Multiplier per 10 Strength on Unallocated Passives in Radius"
+      ],
+      "source": "Drops from unique{The Vaal Omnitect}",
+      "upgrade": "Upgrades to unique{Transcendent Flesh} via currency{Vial of Transcendence}",
+      "league": "Incursion",
+      "radius": "Medium"
+    },
+    {
+      "name": "Transcendent Flesh",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "-1 Strength per 1 Strength on Allocated Passives in Radius",
+        "1% additional Physical Damage Reduction per 10 Strength on Allocated Passives in Radius",
+        "+5% to Critical Strike Multiplier per 10 Strength on Unallocated Passives in Radius"
+      ],
+      "source": "Upgraded from unique{Tempered Flesh} via currency{Vial of Transcendence}",
+      "league": "Incursion",
+      "radius": "Medium"
+    },
+    {
+      "name": "Tempered Mind",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "-1 Intelligence per 1 Intelligence on Allocated Passives in Radius",
+        "+100 to Accuracy Rating per 10 Intelligence on Unallocated Passives in Radius"
+      ],
+      "source": "Drops from unique{The Vaal Omnitect}",
+      "upgrade": "Upgrades to unique{Transcendent Mind} via currency{Vial of Transcendence}",
+      "league": "Incursion",
+      "radius": "Medium"
+    },
+    {
+      "name": "Transcendent Mind",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "-1 Intelligence per 1 Intelligence on Allocated Passives in Radius",
+        "0.4% of Energy Shield Regenerated per Second for",
+        "every 10 Intelligence on Allocated Passives in Radius",
+        "+100 to Accuracy Rating per 10 Intelligence on Unallocated Passives in Radius"
+      ],
+      "source": "Upgraded from unique{Tempered Mind} via currency{Vial of Transcendence}",
+      "league": "Incursion",
+      "radius": "Medium"
+    },
+    {
+      "name": "Tempered Spirit",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "-1 Dexterity per 1 Dexterity on Allocated Passives in Radius",
+        "+15 to Maximum Mana per 10 Dexterity on Unallocated Passives in Radius"
+      ],
+      "source": "Drops from unique{The Vaal Omnitect}",
+      "upgrade": "Upgrades to unique{Transcendent Spirit} via currency{Vial of Transcendence}",
+      "league": "Incursion",
+      "radius": "Medium"
+    },
+    {
+      "name": "Transcendent Spirit",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "-1 Dexterity per 1 Dexterity on Allocated Passives in Radius",
+        "2% increased Movement Speed per 10 Dexterity on Allocated Passives in Radius",
+        "+15 to Maximum Mana per 10 Dexterity on Unallocated Passives in Radius"
+      ],
+      "source": "Upgraded from unique{Tempered Spirit} via currency{Vial of Transcendence}",
+      "league": "Incursion",
+      "radius": "Medium"
+    },
+    {
+      "name": "To Dust",
+      "base": "Cobalt Jewel",
+      "variants": [
+        "Current"
+      ],
+      "explicits": [
+        "(10-20)% reduced Skeleton Duration",
+        "(3-5)% increased Skeleton Movement Speed",
+        "(7-10)% increased Skeleton Attack Speed",
+        "(7-10)% increased Skeleton Cast speed"
+      ]
+    },
+    {
+      "name": "Unnatural Instinct",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Radius: Small",
+        "Allocated Small Passive Skills in Radius grant nothing",
+        "Grants all bonuses of Unallocated Small Passive Skills in Radius"
+      ],
+      "radius": "Small"
+    },
+    {
+      "name": "Unstable Payload",
+      "base": "Cobalt Jewel",
+      "explicits": []
+    },
+    {
+      "name": "Watcher's Eye",
+      "base": "Prismatic Jewel",
+      "variants": [
+        "true",
+        "Anger: Fire Leech",
+        "Anger: Fire Pen",
+        "Anger: Physical Add Fire",
+        "Anger: Physical Convert Fire",
+        "Clarity: Dmg. Mana before Life",
+        "Clarity: Mana Add Energy Shield",
+        "Clarity: Recover Mana",
+        "Clarity: Mana Cost",
+        "Determination: Block",
+        "Determination: Phys Dmg Reduct",
+        "Determination: Red. Crit Dmg",
+        "Determination: Vuln. Immune",
+        "Discipline: Spell Block",
+        "Discipline: Energy Shield on Hit",
+        "Discipline: Energy Shield Regen",
+        "Discipline: Faster Rchrg. Start",
+        "Grace: Additional Evade",
+        "Grace: Dodge Chance",
+        "Grace: Movement Speed",
+        "Grace: Enfeeble Immune",
+        "Haste: Spell Dodge Chance",
+        "Haste: Onslaught on Kill",
+        "Haste: Phasing",
+        "Haste: Temp. Chains Immune",
+        "Hatred: Added Cold Damage",
+        "Hatred: Crit Chance",
+        "Hatred: Cold Pen",
+        "Hatred: Physical Convert Cold",
+        "Purity of Elements: Phys as Cold",
+        "Purity of Elements: Phys as Fire",
+        "Purity of Elements: Phys as Light",
+        "Purity of Elements: EW Immune",
+        "Purity of Fire: Ignite Immune",
+        "Purity of Fire: Phys as Fire",
+        "Purity of Fire: Bur.Gr Immune",
+        "Purity of Fire: Flamm. Immune",
+        "Purity of Ice: Freeze Immune",
+        "Purity of Ice: Phys as Cold",
+        "Purity of Ice: Chl.Gr Immune",
+        "Purity of Ice: Frostbite Immune",
+        "Purity of Lightning: Shock Immune",
+        "Purity of Lightning: Phys as Light",
+        "Purity of Lightning: Cond. Immune",
+        "Purity of Lightning: Shk.Gr Immune",
+        "Vitality: Life Leech",
+        "Vitality: Life Regen",
+        "Vitality: Life on Hit",
+        "Vitality: Life Recovery",
+        "Wrath: Light Leech",
+        "Wrath: Light Pen",
+        "Wrath: Phys Add Light",
+        "Wrath: Phys Convert Light"
+      ],
+      "explicits": [
+        "(4–6)% increased maximum Energy Shield",
+        "(4–6)% increased maximum Life ",
+        "(4–6)% increased maximum Mana",
+        "{variant:1}(1-1.5)% of Fire Damage Leeched as Life while affected by Anger",
+        "{variant:2}Damage Penetrates (10-15)% Fire Resistance while affected by Anger",
+        "{variant:3}Gain (15-25)% of Physical Damage as Extra Fire Damage while affected by Anger",
+        "{variant:4}(25-40)% of Physical Damage Converted to Fire Damage while affected by Anger",
+        "{variant:5}(6-10)% of Damage taken from Mana before Life while affected by Clarity",
+        "{variant:6}Gain (12-18)% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity",
+        "{variant:7}(10-15)% chance to Recover 10% of Maximum Mana when you use a Skill while affected by Clarity",
+        "{variant:8}-(10-5) to Total Mana Cost of Skills while affected by Clarity",
+        "{variant:9}(5-8)% chance to Block while affected by Determination",
+        "{variant:10}(5-8)% additional Physical Damage Reduction while affected by Determination",
+        "{variant:11}You take (60-40)% reduced Extra Damage from Critical Strikes while affected by Determination",
+        "{variant:12}Unaffected by Vulnerability while affected by Determination",
+        "{variant:13}(5-8)% chance to Block Spells while affected by Discipline",
+        "{variant:14}(20-30) Energy Shield gained for each Enemy Hit while affected by Discipline",
+        "{variant:15}(1.5-2.5)% of Maximum Energy Shield Regenerated per Second while affected by Discipline",
+        "{variant:16}(30-40)% faster start of Energy Shield Recharge while affected by Discipline",
+        "{variant:17}+(5-8)% chance to Evade Attacks while affected by Grace",
+        "{variant:18}(6-10)% chance to Dodge Attacks while affected by Grace",
+        "{variant:19}(10-15)% increased Movement Speed while affected by Grace",
+        "{variant:20}Unaffected by Enfeeble while affected by Grace",
+        "{variant:21}(5-8)% chance to Dodge Spells while affected by Haste",
+        "{variant:22}You gain Onslaught for 4 seconds on Kill while affected by Haste",
+        "{variant:23}You have Phasing while affected by Haste",
+        "{variant:24}Unaffected by Temporal Chains while affected by Haste",
+        "{variant:25}Adds (58-70) to (88-104) Cold Damage while affected by Hatred",
+        "{variant:26}+(1.2-1.8)% to Critical Strike Chance while affected by Hatred",
+        "{variant:27}Damage Penetrates (10-15)% Cold Resistance while affected by Hatred",
+        "{variant:28}(25-40)% of Physical Damage Converted to Cold Damage while affected by Hatred",
+        "{variant:29}(8-12)% of Physical Damage taken as Cold Damage while affected by Purity of Elements",
+        "{variant:30}(8-12)% of Physical Damage taken as Fire Damage while affected by Purity of Elements",
+        "{variant:31}(8-12)% of Physical Damage taken as Lightning Damage while affected by Purity of Elements",
+        "{variant:32}Unaffected by Elemental Weakness while affected by Purity of Elements",
+        "{variant:33}Immune to Ignite while affected by Purity of Fire",
+        "{variant:34}(6-10)% of Physical Damage taken as Fire Damage while affected by Purity of Fire",
+        "{variant:35}Unaffected by Burning Ground while affected by Purity of Fire",
+        "{variant:36}Unaffected by Flammability while affected by Purity of Fire",
+        "{variant:37}Immune to Freeze while affected by Purity of Ice",
+        "{variant:38}(6-10)% of Physical Damage taken as Cold Damage while affected by Purity of Ice",
+        "{variant:39}Unaffected by Chilled Ground while affected by Purity of Ice",
+        "{variant:40}Unaffected by Frostbite while affected by Purity of Ice",
+        "{variant:41}Immune to Shock while affected by Purity of Lightning",
+        "{variant:42}(6-10)% of Physical Damage taken as Lightning Damage while affected by Purity of Lightning",
+        "{variant:43}Unaffected by Conductivity while affected by Purity of Lightning",
+        "{variant:44}Unaffected by Shocked Ground while affected by Purity of Lightning",
+        "{variant:45}(1-1.5)% of Damage leeched as Life while affected by Vitality",
+        "{variant:46}(100-140) Life Regenerated per Second while affected by Vitality",
+        "{variant:47}(20-30) Life gained for each Enemy Hit while affected by Vitality",
+        "{variant:48}(20-30)% increased Life Recovery Rate while affected by Vitality",
+        "{variant:49}(1-1.5)% of Lightning Damage is Leeched as Mana while affected by Wrath",
+        "{variant:50}Damage Penetrates (10-15)% Lightning Resistance while affected by Wrath",
+        "{variant:51}Gain (15-25)% of Physical Damage as Extra Lightning Damage while affected by Wrath",
+        "{variant:52}(25-40)% of Physical Damage Converted to Lightning Damage while affected by Wrath"
+      ],
+      "source": "Drops from unique{The Elder}"
+    }
+  ],
+  "Jewel: Threshold": [
+    {
+      "name": "Combat Focus",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "Elemental Hit deals (10–15)% increased Damage",
+        "With 40 total Strength and Intelligence in Radius, Elemental Hit cannot choose Cold",
+        "With 40 total Strength and Intelligence in Radius, Elemental Hit deals 50% less Cold Damage"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Combat Focus",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "Elemental Hit deals (10–15)% increased Damage",
+        "With 40 total Intelligence and Dexterity in Radius, Elemental Hit cannot choose Fire",
+        "With 40 total Intelligence and Dexterity in Radius, Elemental Hit deals 50% less Fire Damage"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Combat Focus",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "Elemental Hit deals (10–15)% increased Damage",
+        "With 40 total Dexterity and Strength in Radius, Elemental Hit cannot choose Lightning",
+        "With 40 total Dexterity and Strength in Radius, Elemental Hit deals 50% less Lightning Damage"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Collateral Damage",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10–15)% increased Physical Damage",
+        "With at least 40 Dexterity in Radius, Shrapnel Shot has 25% increased Area of Effect",
+        "With at least 40 Dexterity in Radius, Shrapnel Shot's",
+        "cone has a 50% chance to deal Double Damage"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Dead Reckoning",
+      "base": "Cobalt Jewel",
+      "variants": [
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "explicits": [
+        "Radius: Medium",
+        "Minions have +(7-10)% to all Elemental Resistances",
+        "{variant:1}With at least 40 Intelligence in Radius, can summon up to 3 Skeleton Mages with Summon Skeletons",
+        "{variant:2}With at least 40 Intelligence in Radius, can summon up to 5 Skeleton Mages with Summon Skeletons"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Fight for Survival",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10–15)% increased Cold Damage",
+        "With at least 40 Dexterity in Radius, Melee Damage ",
+        "dealt by Frost Blades Penetrates 15% Cold Resistance",
+        "With at least 40 Dexterity in Radius, Frost Blades has 25% increased Projectile Speed"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "First Snow",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(7–10)% increased Projectile Damage ",
+        "With at least 40 Intelligence in Radius, Freezing Pulse fires 2 additional Projectiles",
+        "With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if",
+        "you've Shattered an Enemy Recently"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Frozen Trail",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(7–10)% increased Projectile Damage",
+        "With at least 40 Intelligence in Radius, Frostbolt fires 2 additional Projectiles",
+        "With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40% increased Projectile",
+        "Speed per second"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Growing Agony",
+      "base": "Viridian Jewel",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "explicits": [
+        "Radius: Medium",
+        "(4-12)% increased Damage over Time",
+        "{variant:1,2}With at least 40 Dexterity in Radius, Viper Strike deals 2% increased Attack Damage for each Poison on the Enemy",
+        "{variant:3}With at least 40 Dexterity in Radius, Viper Strike deals 2% increased Damage with Hits and Poison for each Poison on the Enemy",
+        "{variant:2,3}With at least 40 Dexterity in Radius, Viper Strike has a 10% chance per Poison on Enemy to grant Unholy Might for 4 seconds on Hit"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Hazardous Research",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10-15)% increased Lightning Damage",
+        "With at least 40 Intelligence in Radius, Spark fires 2 additional Projectiles",
+        "With at least 40 Intelligence in Radius, Spark fires Projectiles in a Nova",
+        "(20-15)% reduced Spark Duration"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Inevitability",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10–15)% increased Fire Damage",
+        "With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile",
+        "With at least 40 Intelligence in Radius, Magma Orb",
+        "has 10% increased Area of Effect per Chain"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "The Long Winter",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10–15)% increased Cold Damage ",
+        "With 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage",
+        "Converted to Cold Damage",
+        "With 40 Intelligence in Radius, Glacial Cascade has an additional Burst"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Might and Influence",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10–15)% increased Physical Damage",
+        "With at least 40 Dexterity in Radius, Dual Strike has a 20% chance",
+        "to deal Double Damage with the Main-Hand Weapon",
+        "With at least 40 Dexterity in Radius, Dual Strike deals Off-Hand Splash Damage",
+        "to surrounding targets"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Omen on the Winds",
+      "base": "Viridian Jewel",
+      "variants": [
+        "Pre 3.0.0",
+        "Pre 3.1.0",
+        "Current"
+      ],
+      "explicits": [
+        "Radius: Medium",
+        "{variant:1}(15-20)% increased Damage against Chilled Enemies",
+        "{variant:2,3}(15-20)% increased Damage with Hits against Chilled Enemies",
+        "{variant:2}With at least 40 Dexterity in Radius, Ice Shot Pierces 5 additional Targets",
+        "{variant:3}With at least 40 Dexterity in Radius, Ice Shot Pierces 3 additional Targets",
+        "With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect",
+        "{variant:1}With at least 40 Dexterity in Radius, Ice Shot has 50% chance of Projectiles Piercing"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Overwhelming Odds",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10-15)% increased Physical Damage",
+        "With at least 40 Strength in Radius, Cleave grants Fortify on Hit",
+        "With at least 40 Strength in Radius, Cleave has 3% increased Area of",
+        "Effect per Nearby Enemy"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Pitch Darkness",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "(5-15)% increased Fire Damage",
+        "With at least 40 Dexterity in Radius, Burning Arrow has a 10% chance to spread Burning Ground if it Ignites an Enemy.",
+        "With at least 40 Dexterity in Radius, Burning Arrow has a 10% chance to spread Tar if it does not Ignite an Enemy."
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Rapid Expansion",
+      "base": "Crimson Jewel",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.3.0",
+        "Current"
+      ],
+      "explicits": [
+        "Radius: Medium",
+        "(4-12)% increased Physical Damage",
+        "{variant:1}With at least 40 Strength in Radius, Ground Slam has a 20% increased angle",
+        "{variant:2}With at least 40 Strength in Radius, Ground Slam has a 35% increased angle",
+        "{variant:3}With at least 40 Strength in Radius, Ground Slam has a 50% increased angle",
+        "{variant:2}With at least 40 Strength in Radius, Ground Slam has a 25% chance to grant an Endurance Charge when you Stun an Enemy",
+        "{variant:3}With at least 40 Strength in Radius, Ground Slam has a 35% chance to grant an Endurance Charge when you Stun an Enemy"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Ring of Blades",
+      "base": "Viridian Jewel",
+      "variants": [
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "explicits": [
+        "Radius: Medium",
+        "(10–15)% increased Physical Damage ",
+        "With at least 40 Dexterity in Radius, Ethereal Knives fires Projectiles in a Nova",
+        "{variant:1}With at least 40 Dexterity in Radius, Ethereal Knives fires 10 additional Projectiles",
+        "{variant:2}With at least 40 Dexterity in Radius, Ethereal Knives fires 5 additional Projectiles"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Rolling Flames",
+      "base": "Cobalt Jewel",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "explicits": [
+        "Radius: Medium",
+        "(5-15)% increased Fire Damage",
+        "{variant:1}With at least 40 Intelligence in Radius, Fireball Projectiles gain Area of Effect Radius as they travel further, up to 50% increased Radius.",
+        "{variant:2}With at least 40 Intelligence in Radius, Fireball Projectiles gain Radius as they travel farther, up to +4 Radius"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Shattered Chains",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "(5-15)% increased Cold Damage",
+        "With at least 40 Strength in Radius, 20% increased Rarity of Items dropped by Enemies Shattered by Glacial Hammer"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Spirit Guards",
+      "base": "Viridian Jewel",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "explicits": [
+        "Radius: Medium",
+        "Minions deal (8-12)% increased Damage",
+        "{variant:1}With at least 40 Dexterity in Radius, Animate Weapon can Animate up to 4 Ranged Weapons",
+        "{variant:2}With at least 40 Dexterity in Radius, Animate Weapon can Animate up to 8 Ranged Weapons"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Spirited Response",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(5-10)% increased maximum Mana",
+        "With at least 40 Intelligence in Radius, 10% of Damage taken gained as Mana over 4 seconds when Hit during Rallying Cry for you and Allies"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Spreading Rot",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(7-13)% increased Chaos Damage",
+        "With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration",
+        "With at least 40 Intelligence in Radius, Enemies Hindered by Blight take 25% increased Chaos Damage"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Steel Spirit",
+      "base": "Viridian Jewel",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "explicits": [
+        "(6-10)% increased Projectile Damage",
+        "{variant:1}With at least 40 Dexterity in Radius, each Spectral Throw Projectile gains 4% increased Damage each time it Hits.",
+        "{variant:2}With at least 40 Dexterity in Radius, each Spectral Throw Projectile gains 5% increased Damage each time it Hits."
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Sudden Ignition",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10–15)% increased Fire Damage ",
+        "With at least 40 Dexterity in Radius, Burning",
+        "Arrow can inflict an additional Ignite on an Enemy"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Unending Hunger ",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "Minions have (5-8)% increased Area of Effect of Area Skills",
+        "With at least 40 Intelligence in Radius, Raised Spectres have a 50% chance to gain Soul Eater for 30 seconds on Kill"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "The Vigil",
+      "base": "Crimson Jewel",
+      "variants": [
+        "Pre 2.6.0",
+        "Current"
+      ],
+      "explicits": [
+        "Radius: Medium",
+        "(8-15)% increased Armour",
+        "{variant:1}With at least 40 Strength in Radius, Vigilant Strike also Fortifies Nearby Allies for 3 seconds.",
+        "{variant:2}With at least 40 Strength in Radius, Vigilant Strike Fortifies you and Nearby Allies for 12 seconds"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Violent Dead",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "Minions deal (10-15)% increased Damage ",
+        "With at least 40 Intelligence in Radius, Raised",
+        "Zombies' Slam Attack has 100% increased Cooldown Recovery Speed",
+        "With at least 40 Intelligence in Radius, Raised Zombies' Slam",
+        "Attack deals 30% increased Damage"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Volley Fire",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(6-10)% increased Projectile Damage",
+        "With at least 40 Dexterity in Radius, Barrage fires an additional 2 projectiles simultaneously on the first and final attacks"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Weight of the Empire",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(8-12)% increased Physical Damage",
+        "With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Wildfire",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10–15)% increased Fire Damage ",
+        "With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles",
+        "With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Winter's Bounty",
+      "base": "Cobalt Jewel",
+      "variants": [
+        "Pre 2.6.0",
+        "Pre 3.3.0",
+        "Current"
+      ],
+      "explicits": [
+        "Radius: Medium",
+        "(5-15)% increased Cold Damage",
+        "{variant:1}With at least 40 Intelligence in Radius, Cold Snap has a 25% chance to grant a Power Charge on Kill",
+        "{variant:2}With at least 40 Intelligence in Radius, Cold Snap has a 50% chance to grant a Power Charge on Kill",
+        "{variant:3}With at least 40 Intelligence in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in it's Area",
+        "{variant:3}With at least 40 Intelligence in Radius, Cold Snap Cooldown can be bypassed by Power Charges instead of Frenzy Charges"
+      ],
+      "radius": "Medium"
+    },
+    {
+      "name": "Winter Burial",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Radius: Medium",
+        "(10–15)% increased Cold Damage ",
+        "With at least 40 Strength in Radius, Glacial Hammer deals",
+        "Cold-only Splash Damage to surrounding targets",
+        "With at least 40 Strength in Radius, 25% of Glacial",
+        "Hammer Physical Damage converted to Cold Damage"
+      ],
+      "radius": "Medium"
+    }
+  ],
+  "Jewel: Corrupted": [
+    {
+      "name": "Ancient Waystones",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "60% reduced Mana Cost of Totem Skills that cast an Aura"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Atziri's Reign",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "(15-20)% increased Vaal Skill Effect Duration"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Blood Sacrifice",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "Removes 1% of maximum Life on Kill",
+        "Removes 1% of maximum Energy Shield on Kill"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Brittle Barrier",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "10% increased Damage Taken while Energy Shield is Full"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Chill of Corruption",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "50% chance to gain an additional Vaal Soul per Enemy Shattered"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Combustibles",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "(20-30)% increased Burning Damage"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Corrupted Energy",
+      "base": "Cobalt Jewel",
+      "explicits": [],
+      "corrupted": true
+    },
+    {
+      "name": "Fevered Mind",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "100% increased Mana Cost of Skills"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Fragility",
+      "base": "Crimson Jewel",
+      "explicits": [],
+      "corrupted": true
+    },
+    {
+      "name": "Hungry Abyss",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "With 5 Corrupted Items Equipped: Life Leech recovers based on your Chaos Damage instead"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Mutated Growth",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "10% increased Experience Gain of Corrupted Gems"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Pacifism",
+      "base": "Viridian Jewel",
+      "explicits": [],
+      "corrupted": true
+    },
+    {
+      "name": "Powerlessness",
+      "base": "Cobalt Jewel",
+      "explicits": [],
+      "corrupted": true
+    },
+    {
+      "name": "Sacrificial Harvest",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "(20-30)% chance to gain an additional Vaal Soul on Kill"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Self-Flagellation",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "You can have one additional Curse",
+        "(10-20)% increased Damage per Curse on you"
+      ],
+      "corrupted": true
+    },
+    {
+      "name": "Vaal Sentencing",
+      "base": "Cobalt Jewel",
+      "explicits": [],
+      "corrupted": true
+    },
+    {
+      "name": "Weight of Sin",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "15% reduced Movement Speed"
+      ],
+      "corrupted": true
+    }
+  ],
+  "Jewel: Quest rewards": [
+    {
+      "name": "Assassin's Haste",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "10% increased Mana Regeneration Rate",
+        "4% increased Movement Speed",
+        "4% increased Attack and Cast Speed"
+      ]
+    },
+    {
+      "name": "Conqueror's Efficiency",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "3% reduced Mana Cost of Skills",
+        "4% increased Skill Effect Duration",
+        "2% reduced Mana Reserved"
+      ]
+    },
+    {
+      "name": "Conqueror's Longevity",
+      "base": "Viridian Jewel",
+      "variants": [
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "explicits": [
+        "{variant:1}3% chance to Avoid Elemental Status Ailments",
+        "{variant:2}3% chance to Avoid Elemental Ailments",
+        "8% increased Life Recovery from Flasks",
+        "2% chance to Dodge Attacks"
+      ]
+    },
+    {
+      "name": "Conqueror's Potency",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "4% increased Effect of your Curses",
+        "8% increased effect of Flasks",
+        "3% increased effect of Non-Curse Auras you Cast"
+      ]
+    },
+    {
+      "name": "Poacher's Aim",
+      "base": "Viridian Jewel",
+      "variants": [
+        "Pre 3.0.0",
+        "Current"
+      ],
+      "explicits": [
+        "{variant:1}15% chance of Projectiles Piercing",
+        "{variant:2}Projectiles Pierce an additional Target",
+        "10% increased Projectile Damage"
+      ]
+    },
+    {
+      "name": "Survival Instincts",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "+20 to Dexterity",
+        "+6% to all Elemental Resistances"
+      ]
+    },
+    {
+      "name": "Survival Secrets",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "3 Mana Regenerated per second",
+        "10% increased Elemental Damage"
+      ]
+    },
+    {
+      "name": "Survival Skills",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "10% increased Physical Damage",
+        "+50 to Armour"
+      ]
+    },
+    {
+      "name": "Warlord's Reach",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "8% increased Attack Damage",
+        "+1 Melee Weapon and Unarmed Range"
+      ]
+    }
+  ],
+  "Jewel: Labyrinth rewards": [
+    {
+      "name": "Emperor's Cunning",
+      "base": "Viridian Jewel",
+      "explicits": [
+        "20% increased Accuracy Rating",
+        "3% increased Character Size",
+        "(4-6)% increased Dexterity"
+      ],
+      "source": "Fastest Normal Labyrinth"
+    },
+    {
+      "name": "Emperor's Mastery",
+      "base": "Prismatic Jewel",
+      "explicits": [
+        "4% increased maximum Life",
+        "3% increased Character Size",
+        "5% increased Defences",
+        "(5-7)% increased Attributes"
+      ],
+      "source": "Fastest Eternal Labyrinth"
+    },
+    {
+      "name": "Emperor's Might",
+      "base": "Crimson Jewel",
+      "explicits": [
+        "10% increased Damage",
+        "3% increased Character Size",
+        "(4-6)% increased Strength"
+      ],
+      "source": "Fastest Merciless Labyrinth"
+    },
+    {
+      "name": "Emperor's Wit",
+      "base": "Cobalt Jewel",
+      "explicits": [
+        "30% increased Global Critical Strike Chance",
+        "3% increased Character Size",
+        "(4-6)% increased Intelligence"
+      ],
+      "source": "Fastest Cruel Labyrinth"
+    }
+  ]
+}
