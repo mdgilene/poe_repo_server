@@ -419,7 +419,6 @@
       "name": "Eyes of the Greatwolf",
       "base": "Greatwolf Talisman",
       "variants": [
-        "true",
         "Attributes",
         "Global Defences",
         "Chaos Damage",

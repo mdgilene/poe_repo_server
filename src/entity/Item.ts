@@ -10,8 +10,8 @@ import {
 } from "typeorm";
 import { Variant } from "./Variant";
 import { League } from "./League";
-import { Implicit } from "./Implicit";
-import { Explicit } from "./Explicit";
+import { ItemModifier } from "./ItemModifier";
+import { BaseItem } from "./BaseItem";
 
 @Entity()
 export class Item extends BaseEntity {
@@ -27,8 +27,8 @@ export class Item extends BaseEntity {
   @Column()
   slot: string;
 
-  @Column()
-  base_item: string;
+  @ManyToOne(type => BaseItem)
+  base_item: BaseItem;
 
   @Column()
   level_req: number;
@@ -49,11 +49,13 @@ export class Item extends BaseEntity {
   @JoinTable({ name: "item_variants" })
   variants: Variant[];
 
-  @OneToMany(type => Implicit, modifier => modifier.item, { eager: true })
-  implicits: Implicit[];
+  @ManyToMany(type => ItemModifier, {eager: true})
+  @JoinTable({name: "item_implicit_modifiers"})
+  implicits: ItemModifier[];
 
-  @OneToMany(type => Explicit, modifier => modifier.item, { eager: true })
-  explicits: Explicit[];
+  @ManyToMany(type => ItemModifier,{ eager: true })
+  @JoinTable({name: "item_explicit_modifiers"})
+  explicits: ItemModifier[];
 
   @Column()
   corrupted: boolean;

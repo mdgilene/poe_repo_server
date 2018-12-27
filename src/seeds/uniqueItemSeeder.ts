@@ -2,9 +2,9 @@ import * as fs from "fs";
 import * as path from "path";
 import { Item } from "../entity/Item";
 import { Variant } from "../entity/Variant";
-import { Implicit } from "../entity/Implicit";
-import { Explicit } from "../entity/Explicit";
+import { ItemModifier } from "../entity/ItemModifier";
 import { League } from "../entity/League";
+import { BaseItem } from "../entity/BaseItem";
 
 export default {
   async seed() {
@@ -35,7 +35,6 @@ export default {
           }
 
           db_item.name = item.name;
-          db_item.base_item = item.base;
           db_item.slot = real_type;
           db_item.level_req = item.requirements
             ? item.requirements.level
@@ -50,6 +49,11 @@ export default {
           db_item.source = item.source;
           db_item.upgrade = item.upgrade;
           db_item.league = league;
+
+          const b = await BaseItem.findOne({name: item.base});
+          if (b) {
+            db_item.base_item = b;
+          }
 
           const variants = [];
           if (item.variants) {
@@ -67,8 +71,11 @@ export default {
           const implicits = [];
           if (item.implicits) {
             for (const implicit of item.implicits) {
-              const m = Implicit.create({ text: implicit });
-              await m.save();
+              let m = await ItemModifier.findOne({ text: implicit });
+              if (!m) {
+                m = ItemModifier.create({text: implicit});
+                await m.save();
+              }
               implicits.push(m);
             }
           }
@@ -77,8 +84,11 @@ export default {
           const explicits = [];
           if (item.explicits) {
             for (const explicit of item.explicits) {
-              const m = Explicit.create({ text: explicit });
-              await m.save();
+              let m = await ItemModifier.findOne({ text: explicit });
+              if (!m) {
+                m = ItemModifier.create({text: explicit});
+                await m.save();
+              }
               explicits.push(m);
             }
           }

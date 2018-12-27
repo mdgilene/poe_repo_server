@@ -4,9 +4,6 @@ export class updateItemSchemaForNewDataModel1545868486697
   implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     await queryRunner.query(
-      "DROP INDEX `IDX_fd11936812b9d848277610792c` ON `item`"
-    );
-    await queryRunner.query(
       "CREATE TABLE `variant` (`id` int NOT NULL AUTO_INCREMENT, `name` varchar(255) NOT NULL, UNIQUE INDEX `IDX_1d2554c1d583abf751aed82c6c` (`name`), PRIMARY KEY (`id`)) ENGINE=InnoDB"
     );
     await queryRunner.query(
@@ -82,8 +79,5 @@ export class updateItemSchemaForNewDataModel1545868486697
       "DROP INDEX `IDX_1d2554c1d583abf751aed82c6c` ON `variant`"
     );
     await queryRunner.query("DROP TABLE `variant`");
-    await queryRunner.query(
-      "CREATE UNIQUE INDEX `IDX_fd11936812b9d848277610792c` ON `item`(`text`)"
-    );
   }
 }
